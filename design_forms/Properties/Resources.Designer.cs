@@ -70,6 +70,24 @@ namespace design_forms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Emulator.
+        /// </summary>
+        internal static string GenEmulator {
+            get {
+                return ResourceManager.GetString("GenEmulator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Game.
+        /// </summary>
+        internal static string GenGame {
+            get {
+                return ResourceManager.GetString("GenGame", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to About.
         /// </summary>
         internal static string HelpAbout {
@@ -102,6 +120,51 @@ namespace design_forms.Properties {
         internal static string HelpName {
             get {
                 return ResourceManager.GetString("HelpName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit.
+        /// </summary>
+        internal static string SearchEdit {
+            get {
+                return ResourceManager.GetString("SearchEdit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search.
+        /// </summary>
+        internal static string SearchName {
+            get {
+                return ResourceManager.GetString("SearchName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Play/ Run.
+        /// </summary>
+        internal static string SearchPlayRun {
+            get {
+                return ResourceManager.GetString("SearchPlayRun", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        internal static string SearchViewName {
+            get {
+                return ResourceManager.GetString("SearchViewName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Platform.
+        /// </summary>
+        internal static string SearchViewPlatform {
+            get {
+                return ResourceManager.GetString("SearchViewPlatform", resourceCulture);
             }
         }
         

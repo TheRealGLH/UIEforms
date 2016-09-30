@@ -16,5 +16,20 @@ namespace design_forms
         {
             InitializeComponent();
         }
+
+        private void search_Load(object sender, EventArgs e)
+        {
+            SetText();
+        }
+
+
+        void SetText()
+        {
+            lblSearchName.Text = Properties.Resources.SearchName;
+            btnSearchEmu.Text = Properties.Resources.GenEmulator;
+            btnSearchGame.Text = Properties.Resources.GenGame;
+            btnplay.Text = Properties.Resources.SearchPlayRun;
+            btnEdit.Text = Properties.Resources.SearchEdit;
+        }
     }
 }
