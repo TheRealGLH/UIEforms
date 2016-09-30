@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace design_forms
 {
-    public partial class search : Form
+    public partial class MainMenu: Form
     {
-        public search()
+        public MainMenu()
         {
             InitializeComponent();
-        }
-
-        private void btnForum_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

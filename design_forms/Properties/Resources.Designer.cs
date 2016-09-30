@@ -59,7 +59,64 @@ namespace design_forms.Properties {
                 resourceCulture = value;
             }
         }
-        
+
+
+
+        /// <summary>
+        ///   Looks up a localized string similar to Back to Menu.
+        /// </summary>
+        internal static string MainMenuHelp
+        {
+            get
+            {
+                return ResourceManager.GetString("MainMenuHelp", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Back to Menu.
+        /// </summary>
+        internal static string MainMenuSettings
+        {
+            get
+            {
+                return ResourceManager.GetString("MainMenuSettings", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Back to Menu.
+        /// </summary>
+        internal static string MainMenuSearch
+        {
+            get
+            {
+                return ResourceManager.GetString("MainMenuSearch", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Back to Menu.
+        /// </summary>
+        internal static string MainMenuEmulator
+        {
+            get
+            {
+                return ResourceManager.GetString("MainMenuEmulator", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Back to Menu.
+        /// </summary>
+        internal static string MainMenuGame
+        {
+            get
+            {
+                return ResourceManager.GetString("MainMenuGame", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Back to Menu.
         /// </summary>
