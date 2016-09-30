@@ -120,6 +120,12 @@
   <data name="GenBackToMenu" xml:space="preserve">
     <value>Back to Menu</value>
   </data>
+  <data name="GenEmulator" xml:space="preserve">
+    <value>Emulator</value>
+  </data>
+  <data name="GenGame" xml:space="preserve">
+    <value>Game</value>
+  </data>
   <data name="HelpAbout" xml:space="preserve">
     <value>About</value>
   </data>
@@ -131,6 +137,21 @@
   </data>
   <data name="HelpName" xml:space="preserve">
     <value>Help</value>
+  </data>
+  <data name="SearchEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="SearchName" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SearchPlayRun" xml:space="preserve">
+    <value>Play/ Run</value>
+  </data>
+  <data name="SearchViewName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SearchViewPlatform" xml:space="preserve">
+    <value>Platform</value>
   </data>
   <data name="SettingsHeaderUI" xml:space="preserve">
     <value>UI</value>
