@@ -138,6 +138,21 @@
   <data name="HelpName" xml:space="preserve">
     <value>Help</value>
   </data>
+  <data name="MainEmulator" xml:space="preserve">
+    <value>Emulator</value>
+  </data>
+  <data name="MainGame" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="MainHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="MainSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="MainSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
   <data name="SearchEdit" xml:space="preserve">
     <value>Edit</value>
   </data>
