@@ -50,6 +50,12 @@
     <Compile Include="help.Designer.cs">
       <DependentUpon>help.cs</DependentUpon>
     </Compile>
+    <Compile Include="mainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainMenu.Designer.cs">
+      <DependentUpon>mainMenu.cs</DependentUpon>
+    </Compile>    
     <Compile Include="Properties\Resources.nl-NL.Designer.cs">
       <DependentUpon>Resources.nl-NL.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -72,6 +78,9 @@
     <EmbeddedResource Include="help.resx">
       <DependentUpon>help.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="mainMenu.resx">
+      <DependentUpon>mainMenu.cs</DependentUpon>
+    </EmbeddedResource>    
     <EmbeddedResource Include="Properties\Resources.nl-NL.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.nl-NL.Designer.cs</LastGenOutput>
