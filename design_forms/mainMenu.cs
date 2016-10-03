@@ -15,12 +15,13 @@ namespace design_forms
         public MainMenu()
         {
             InitializeComponent();
+            SetText();
         }
 
         void SetText()
         {
-            this.btnEmulator.Text = Properties.Resources.MainEmulator;
-            this.btnGame.Text = Properties.Resources.MainGame;
+            this.btnEmulator.Text = Properties.Resources.GenEmulator;
+            this.btnGame.Text = Properties.Resources.GenGame;
             this.btnHelp.Text = Properties.Resources.MainHelp;
             this.btnSettings.Text = Properties.Resources.MainSettings;
             this.btnSearch.Text = Properties.Resources.MainSearch;

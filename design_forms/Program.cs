@@ -16,7 +16,7 @@ namespace design_forms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new search());
+            Application.Run(new Favourites());
         }
     }
 }

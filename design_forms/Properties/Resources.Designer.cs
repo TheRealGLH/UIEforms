@@ -61,6 +61,33 @@ namespace design_forms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Platform.
+        /// </summary>
+        internal static string FavouritesListViewPlatform {
+            get {
+                return ResourceManager.GetString("FavouritesListViewPlatform", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Play/Run.
+        /// </summary>
+        internal static string FavouritesPlayRun {
+            get {
+                return ResourceManager.GetString("FavouritesPlayRun", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        internal static string FavoutritesListViewName {
+            get {
+                return ResourceManager.GetString("FavoutritesListViewName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Back to Menu.
         /// </summary>
         internal static string GenBackToMenu {
@@ -120,24 +147,6 @@ namespace design_forms.Properties {
         internal static string HelpName {
             get {
                 return ResourceManager.GetString("HelpName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Emulator.
-        /// </summary>
-        internal static string MainEmulator {
-            get {
-                return ResourceManager.GetString("MainEmulator", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Game.
-        /// </summary>
-        internal static string MainGame {
-            get {
-                return ResourceManager.GetString("MainGame", resourceCulture);
             }
         }
         
