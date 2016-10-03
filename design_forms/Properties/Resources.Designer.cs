@@ -70,6 +70,15 @@ namespace design_forms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Favourites.
+        /// </summary>
+        internal static string FavouritesName {
+            get {
+                return ResourceManager.GetString("FavouritesName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Play/Run.
         /// </summary>
         internal static string FavouritesPlayRun {

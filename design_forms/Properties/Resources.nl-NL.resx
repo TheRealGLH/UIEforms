@@ -117,8 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="FavouritesName" xml:space="preserve">
+    <value>Favorieten</value>
+  </data>
+  <data name="FavoutritesListViewName" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="FavoutritesListViewPlatform" xml:space="preserve">
+    <value>Platform</value>
+  </data>
   <data name="GenBackToMenu" xml:space="preserve">
-    <value>Back to Menu</value>
+    <value>Terug naar menu</value>
   </data>
   <data name="GenEmulator" xml:space="preserve">
     <value>Emulator</value>
