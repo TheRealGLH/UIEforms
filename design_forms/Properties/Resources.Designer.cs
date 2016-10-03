@@ -61,6 +61,96 @@ namespace design_forms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Developer.
+        /// </summary>
+        internal static string EmulatorListLvcDeveloper {
+            get {
+                return ResourceManager.GetString("EmulatorListLvcDeveloper", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        internal static string EmulatorListLvcName {
+            get {
+                return ResourceManager.GetString("EmulatorListLvcName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Platform.
+        /// </summary>
+        internal static string EmulatorListLvcPlatform {
+            get {
+                return ResourceManager.GetString("EmulatorListLvcPlatform", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Version.
+        /// </summary>
+        internal static string EmulatorListLvcVersion {
+            get {
+                return ResourceManager.GetString("EmulatorListLvcVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to EmulatorList.
+        /// </summary>
+        internal static string EmulatorListName {
+            get {
+                return ResourceManager.GetString("EmulatorListName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Run.
+        /// </summary>
+        internal static string EmulatorListRun {
+            get {
+                return ResourceManager.GetString("EmulatorListRun", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Platform.
+        /// </summary>
+        internal static string FavouritesListViewPlatform {
+            get {
+                return ResourceManager.GetString("FavouritesListViewPlatform", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Favourites.
+        /// </summary>
+        internal static string FavouritesName {
+            get {
+                return ResourceManager.GetString("FavouritesName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Play/Run.
+        /// </summary>
+        internal static string FavouritesPlayRun {
+            get {
+                return ResourceManager.GetString("FavouritesPlayRun", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        internal static string FavoutritesListViewName {
+            get {
+                return ResourceManager.GetString("FavoutritesListViewName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Back to Menu.
         /// </summary>
         internal static string GenBackToMenu {
@@ -124,20 +214,38 @@ namespace design_forms.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Emulator.
+        ///   Looks up a localized string similar to Add.
         /// </summary>
-        internal static string MainEmulator {
+        internal static string ListAdd {
             get {
-                return ResourceManager.GetString("MainEmulator", resourceCulture);
+                return ResourceManager.GetString("ListAdd", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Game.
+        ///   Looks up a localized string similar to Add to favourites.
         /// </summary>
-        internal static string MainGame {
+        internal static string ListAddFavourite {
             get {
-                return ResourceManager.GetString("MainGame", resourceCulture);
+                return ResourceManager.GetString("ListAddFavourite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit.
+        /// </summary>
+        internal static string ListEdit {
+            get {
+                return ResourceManager.GetString("ListEdit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove.
+        /// </summary>
+        internal static string ListRemove {
+            get {
+                return ResourceManager.GetString("ListRemove", resourceCulture);
             }
         }
         

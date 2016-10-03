@@ -117,6 +117,36 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="EmulatorListLvcDeveloper" xml:space="preserve">
+    <value>Developer</value>
+  </data>
+  <data name="EmulatorListLvcName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="EmulatorListLvcPlatform" xml:space="preserve">
+    <value>Platform</value>
+  </data>
+  <data name="EmulatorListLvcVersion" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="EmulatorListName" xml:space="preserve">
+    <value>EmulatorList</value>
+  </data>
+  <data name="EmulatorListRun" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="FavouritesListViewPlatform" xml:space="preserve">
+    <value>Platform</value>
+  </data>
+  <data name="FavouritesName" xml:space="preserve">
+    <value>Favourites</value>
+  </data>
+  <data name="FavouritesPlayRun" xml:space="preserve">
+    <value>Play/Run</value>
+  </data>
+  <data name="FavoutritesListViewName" xml:space="preserve">
+    <value>Name</value>
+  </data>
   <data name="GenBackToMenu" xml:space="preserve">
     <value>Back to Menu</value>
   </data>
@@ -138,11 +168,17 @@
   <data name="HelpName" xml:space="preserve">
     <value>Help</value>
   </data>
-  <data name="MainEmulator" xml:space="preserve">
-    <value>Emulator</value>
+  <data name="ListAdd" xml:space="preserve">
+    <value>Add</value>
   </data>
-  <data name="MainGame" xml:space="preserve">
-    <value>Game</value>
+  <data name="ListAddFavourite" xml:space="preserve">
+    <value>Add to favourites</value>
+  </data>
+  <data name="ListEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ListRemove" xml:space="preserve">
+    <value>Remove</value>
   </data>
   <data name="MainHelp" xml:space="preserve">
     <value>Help</value>
