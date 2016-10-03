@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="gameList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gameList.Designer.cs">
+      <DependentUpon>gameList.cs</DependentUpon>
+    </Compile>
     <Compile Include="help.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="gameList.resx">
+      <DependentUpon>gameList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="help.resx">
       <DependentUpon>help.cs</DependentUpon>
     </EmbeddedResource>
