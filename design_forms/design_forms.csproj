@@ -44,7 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="FormAddEditEmulator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,7 +79,7 @@
     </Compile>
     <Compile Include="FormSettings.Designer.cs">
       <DependentUpon>FormSettings.cs</DependentUpon>
-=======
+    </Compile>
     <Compile Include="EmulatorList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,7 +97,6 @@
     </Compile>
     <Compile Include="gameList.Designer.cs">
       <DependentUpon>gameList.cs</DependentUpon>
->>>>>>> 85434dfa2d41468b67be76ef410ccf5fbeffae63
     </Compile>
     <Compile Include="help.cs">
       <SubType>Form</SubType>
@@ -131,7 +129,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
     <EmbeddedResource Include="FormAddEditEmulator.resx">
       <DependentUpon>FormAddEditEmulator.cs</DependentUpon>
     </EmbeddedResource>
@@ -149,7 +146,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormSettings.resx">
       <DependentUpon>FormSettings.cs</DependentUpon>
-=======
+    </EmbeddedResource>
     <EmbeddedResource Include="EmulatorList.resx">
       <DependentUpon>EmulatorList.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,7 +155,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="gameList.resx">
       <DependentUpon>gameList.cs</DependentUpon>
->>>>>>> 85434dfa2d41468b67be76ef410ccf5fbeffae63
     </EmbeddedResource>
     <EmbeddedResource Include="help.resx">
       <DependentUpon>help.cs</DependentUpon>
