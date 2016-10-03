@@ -61,6 +61,60 @@ namespace design_forms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Developer.
+        /// </summary>
+        internal static string EmulatorListLvcDeveloper {
+            get {
+                return ResourceManager.GetString("EmulatorListLvcDeveloper", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        internal static string EmulatorListLvcName {
+            get {
+                return ResourceManager.GetString("EmulatorListLvcName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Platform.
+        /// </summary>
+        internal static string EmulatorListLvcPlatform {
+            get {
+                return ResourceManager.GetString("EmulatorListLvcPlatform", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Version.
+        /// </summary>
+        internal static string EmulatorListLvcVersion {
+            get {
+                return ResourceManager.GetString("EmulatorListLvcVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to EmulatorList.
+        /// </summary>
+        internal static string EmulatorListName {
+            get {
+                return ResourceManager.GetString("EmulatorListName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Run.
+        /// </summary>
+        internal static string EmulatorListRun {
+            get {
+                return ResourceManager.GetString("EmulatorListRun", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Platform.
         /// </summary>
         internal static string FavouritesListViewPlatform {
@@ -156,6 +210,42 @@ namespace design_forms.Properties {
         internal static string HelpName {
             get {
                 return ResourceManager.GetString("HelpName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add.
+        /// </summary>
+        internal static string ListAdd {
+            get {
+                return ResourceManager.GetString("ListAdd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add to favourites.
+        /// </summary>
+        internal static string ListAddFavourite {
+            get {
+                return ResourceManager.GetString("ListAddFavourite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit.
+        /// </summary>
+        internal static string ListEdit {
+            get {
+                return ResourceManager.GetString("ListEdit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove.
+        /// </summary>
+        internal static string ListRemove {
+            get {
+                return ResourceManager.GetString("ListRemove", resourceCulture);
             }
         }
         
