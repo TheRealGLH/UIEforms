@@ -44,11 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
     <Compile Include="Favourites.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Favourites.Designer.cs">
       <DependentUpon>Favourites.cs</DependentUpon>
+	</Compile>
+    <Compile Include="gameList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gameList.Designer.cs">
+      <DependentUpon>gameList.cs</DependentUpon>
     </Compile>
     <Compile Include="help.cs">
       <SubType>Form</SubType>
@@ -83,6 +90,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Favourites.resx">
       <DependentUpon>Favourites.cs</DependentUpon>
+	</EmbeddedResource>
+    <EmbeddedResource Include="gameList.resx">
+      <DependentUpon>gameList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="help.resx">
       <DependentUpon>help.cs</DependentUpon>
