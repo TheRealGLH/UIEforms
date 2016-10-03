@@ -201,4 +201,94 @@
   <data name="SettingsScaleSmall" xml:space="preserve">
     <value>Small</value>
   </data>
+  <data name="textAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="textAddEmulator" xml:space="preserve">
+    <value>Add Emulator</value>
+  </data>
+  <data name="textAddGame" xml:space="preserve">
+    <value>Add Game</value>
+  </data>
+  <data name="textAutofillMetadata" xml:space="preserve">
+    <value>Autofill Meta-Data</value>
+  </data>
+  <data name="textBugReport" xml:space="preserve">
+    <value>Bug Report</value>
+  </data>
+  <data name="textCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="textColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="textDeveloper" xml:space="preserve">
+    <value>Developer</value>
+  </data>
+  <data name="textEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="textEditEmulator" xml:space="preserve">
+    <value>Edit Emulator</value>
+  </data>
+  <data name="textEditGame" xml:space="preserve">
+    <value>Edit Game</value>
+  </data>
+  <data name="textEmulator" xml:space="preserve">
+    <value>Emulator</value>
+  </data>
+  <data name="textFavourites" xml:space="preserve">
+    <value>Favourites</value>
+  </data>
+  <data name="textFont" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="textForum" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="textGame" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="textGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="textHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="textLanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="textLoadPreset" xml:space="preserve">
+    <value>Load Preset</value>
+  </data>
+  <data name="textLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="textName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="textOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="textPlatform" xml:space="preserve">
+    <value>Platform</value>
+  </data>
+  <data name="textPlay" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="textScale" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="textSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="textSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="textTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="textUnilator" xml:space="preserve">
+    <value>Unilator</value>
+  </data>
 </root>
