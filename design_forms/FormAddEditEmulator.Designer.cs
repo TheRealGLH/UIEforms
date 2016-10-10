@@ -63,24 +63,21 @@
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(586, 449);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(782, 553);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // pictureBoxLogo
             // 
             this.pictureBoxLogo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBoxLogo.Image = global::design_forms.Properties.Resources.imageedit_1_4773648694;
-            this.pictureBoxLogo.Location = new System.Drawing.Point(218, 2);
-            this.pictureBoxLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBoxLogo.Location = new System.Drawing.Point(341, 3);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(150, 81);
+            this.pictureBoxLogo.Size = new System.Drawing.Size(100, 100);
             this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxLogo.TabIndex = 0;
             this.pictureBoxLogo.TabStop = false;
@@ -90,10 +87,9 @@
             this.labelMainTitle.AutoSize = true;
             this.labelMainTitle.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelMainTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMainTitle.Location = new System.Drawing.Point(2, 85);
-            this.labelMainTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelMainTitle.Location = new System.Drawing.Point(3, 106);
             this.labelMainTitle.Name = "labelMainTitle";
-            this.labelMainTitle.Size = new System.Drawing.Size(582, 39);
+            this.labelMainTitle.Size = new System.Drawing.Size(776, 48);
             this.labelMainTitle.TabIndex = 1;
             this.labelMainTitle.Text = "Add Emulator";
             this.labelMainTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -104,17 +100,16 @@
             this.tableLayoutPanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tableLayoutPanel2.ColumnCount = 3;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 15F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.buttonOk, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.buttonCancel, 2, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 418);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 516);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(582, 29);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(776, 34);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // buttonOk
@@ -125,13 +120,13 @@
             this.buttonOk.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonOk.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.buttonOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonOk.Location = new System.Drawing.Point(249, 2);
-            this.buttonOk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonOk.Location = new System.Drawing.Point(337, 3);
             this.buttonOk.Name = "buttonOk";
-            this.buttonOk.Size = new System.Drawing.Size(32, 25);
+            this.buttonOk.Size = new System.Drawing.Size(38, 28);
             this.buttonOk.TabIndex = 0;
             this.buttonOk.Text = "Ok";
             this.buttonOk.UseVisualStyleBackColor = true;
+            this.buttonOk.Click += new System.EventHandler(this.buttonOk_Click);
             // 
             // buttonCancel
             // 
@@ -141,14 +136,12 @@
             this.buttonCancel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.buttonCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCancel.Location = new System.Drawing.Point(300, 2);
-            this.buttonCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonCancel.Location = new System.Drawing.Point(401, 3);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(55, 25);
+            this.buttonCancel.Size = new System.Drawing.Size(64, 28);
             this.buttonCancel.TabIndex = 1;
             this.buttonCancel.Text = "Cancel";
             this.buttonCancel.UseVisualStyleBackColor = true;
-            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // tableLayoutPanel3
             // 
@@ -168,8 +161,7 @@
             this.tableLayoutPanel3.Controls.Add(this.textBoxLocation, 1, 3);
             this.tableLayoutPanel3.Controls.Add(this.labelLocation, 0, 3);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(2, 126);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 157);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 5;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -177,7 +169,7 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(582, 288);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(776, 353);
             this.tableLayoutPanel3.TabIndex = 4;
             // 
             // labelName
@@ -185,10 +177,9 @@
             this.labelName.AutoSize = true;
             this.labelName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelName.Location = new System.Drawing.Point(2, 0);
-            this.labelName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelName.Location = new System.Drawing.Point(3, 0);
             this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(188, 24);
+            this.labelName.Size = new System.Drawing.Size(250, 28);
             this.labelName.TabIndex = 0;
             this.labelName.Text = "Name";
             this.labelName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -198,10 +189,9 @@
             this.labelPlatform.AutoSize = true;
             this.labelPlatform.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelPlatform.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPlatform.Location = new System.Drawing.Point(2, 24);
-            this.labelPlatform.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelPlatform.Location = new System.Drawing.Point(3, 28);
             this.labelPlatform.Name = "labelPlatform";
-            this.labelPlatform.Size = new System.Drawing.Size(188, 24);
+            this.labelPlatform.Size = new System.Drawing.Size(250, 28);
             this.labelPlatform.TabIndex = 1;
             this.labelPlatform.Text = "Platform";
             this.labelPlatform.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -211,10 +201,9 @@
             this.labelDeveloper.AutoSize = true;
             this.labelDeveloper.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelDeveloper.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDeveloper.Location = new System.Drawing.Point(2, 48);
-            this.labelDeveloper.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelDeveloper.Location = new System.Drawing.Point(3, 56);
             this.labelDeveloper.Name = "labelDeveloper";
-            this.labelDeveloper.Size = new System.Drawing.Size(188, 24);
+            this.labelDeveloper.Size = new System.Drawing.Size(250, 28);
             this.labelDeveloper.TabIndex = 2;
             this.labelDeveloper.Text = "Developer";
             this.labelDeveloper.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -222,28 +211,25 @@
             // textBoxName
             // 
             this.textBoxName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxName.Location = new System.Drawing.Point(194, 2);
-            this.textBoxName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxName.Location = new System.Drawing.Point(259, 3);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(193, 20);
+            this.textBoxName.Size = new System.Drawing.Size(257, 22);
             this.textBoxName.TabIndex = 3;
             // 
             // textBoxPlatform
             // 
             this.textBoxPlatform.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxPlatform.Location = new System.Drawing.Point(194, 26);
-            this.textBoxPlatform.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPlatform.Location = new System.Drawing.Point(259, 31);
             this.textBoxPlatform.Name = "textBoxPlatform";
-            this.textBoxPlatform.Size = new System.Drawing.Size(193, 20);
+            this.textBoxPlatform.Size = new System.Drawing.Size(257, 22);
             this.textBoxPlatform.TabIndex = 4;
             // 
             // textBoxDeveloper
             // 
             this.textBoxDeveloper.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxDeveloper.Location = new System.Drawing.Point(194, 50);
-            this.textBoxDeveloper.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxDeveloper.Location = new System.Drawing.Point(259, 59);
             this.textBoxDeveloper.Name = "textBoxDeveloper";
-            this.textBoxDeveloper.Size = new System.Drawing.Size(193, 20);
+            this.textBoxDeveloper.Size = new System.Drawing.Size(257, 22);
             this.textBoxDeveloper.TabIndex = 5;
             // 
             // buttonBrowse
@@ -253,10 +239,9 @@
             this.buttonBrowse.AutoSize = true;
             this.buttonBrowse.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonBrowse.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonBrowse.Location = new System.Drawing.Point(391, 74);
-            this.buttonBrowse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonBrowse.Location = new System.Drawing.Point(522, 87);
             this.buttonBrowse.Name = "buttonBrowse";
-            this.buttonBrowse.Size = new System.Drawing.Size(67, 25);
+            this.buttonBrowse.Size = new System.Drawing.Size(81, 28);
             this.buttonBrowse.TabIndex = 6;
             this.buttonBrowse.Text = "Browse...";
             this.buttonBrowse.UseVisualStyleBackColor = true;
@@ -265,10 +250,9 @@
             // textBoxLocation
             // 
             this.textBoxLocation.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxLocation.Location = new System.Drawing.Point(194, 74);
-            this.textBoxLocation.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxLocation.Location = new System.Drawing.Point(259, 87);
             this.textBoxLocation.Name = "textBoxLocation";
-            this.textBoxLocation.Size = new System.Drawing.Size(193, 20);
+            this.textBoxLocation.Size = new System.Drawing.Size(257, 22);
             this.textBoxLocation.TabIndex = 7;
             // 
             // labelLocation
@@ -276,10 +260,9 @@
             this.labelLocation.AutoSize = true;
             this.labelLocation.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelLocation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelLocation.Location = new System.Drawing.Point(2, 72);
-            this.labelLocation.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelLocation.Location = new System.Drawing.Point(3, 84);
             this.labelLocation.Name = "labelLocation";
-            this.labelLocation.Size = new System.Drawing.Size(188, 29);
+            this.labelLocation.Size = new System.Drawing.Size(250, 34);
             this.labelLocation.TabIndex = 8;
             this.labelLocation.Text = "Location";
             this.labelLocation.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -290,14 +273,15 @@
             // 
             // FormAddEditEmulator
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(586, 449);
+            this.ClientSize = new System.Drawing.Size(782, 553);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MinimumSize = new System.Drawing.Size(800, 600);
             this.Name = "FormAddEditEmulator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Add Emulator";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormAddEditEmulator_FormClosing);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();

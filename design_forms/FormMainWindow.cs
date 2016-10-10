@@ -26,44 +26,65 @@ namespace design_forms
 
         private void buttonGame_Click(object sender, EventArgs e)
         {
-            gameList gameForm = new gameList();
-            gameForm.Show();
-            this.Hide();
+            FormAddEditGame formAddEditGame = new FormAddEditGame();
+            DialogResult dialogResult = formAddEditGame.ShowDialog(this);
+
+            if(dialogResult != DialogResult.OK)
+            {
+                return;
+            }
+
+            ObjectManager.instance.games.Add(formAddEditGame.game);
         }
 
         private void buttonEmulator_Click(object sender, EventArgs e)
         {
-            EmulatorList emulatorForm = new EmulatorList();
-            emulatorForm.Show();
-            this.Hide();
+            FormAddEditEmulator formAddEditEmulator = new FormAddEditEmulator();
+            DialogResult dialogResult = formAddEditEmulator.ShowDialog(this);
+
+            if (dialogResult != DialogResult.OK)
+            {
+                return;
+            }
+
+            ObjectManager.instance.emulators.Add(formAddEditEmulator.emulator);
         }
 
         private void buttonSearch_Click(object sender, EventArgs e)
         {
             FormSearch formSearch = new FormSearch();
-            formSearch.Show();
-            this.Hide();
+            DialogResult dialogResult = formSearch.ShowDialog(this);
+
+            if (dialogResult != DialogResult.OK)
+            {
+                return;
+            }
         }
 
         private void buttonSettings_Click(object sender, EventArgs e)
         {
             FormSettings formSettings = new FormSettings();
-            formSettings.Show();
-            this.Hide();
+            DialogResult dialogResult = formSettings.ShowDialog(this);
+
+            if (dialogResult != DialogResult.OK)
+            {
+                return;
+            }
+
+            System.Threading.Thread.CurrentThread.CurrentCulture = formSettings.language;
+            System.Threading.Thread.CurrentThread.CurrentUICulture = formSettings.language;
+
+            loadStrings();
         }
 
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-            FormHelp formHelp = new FormHelp();
-            formHelp.Show();
-            this.Hide();
+
         }
 
         private void buttonFavourites_Click(object sender, EventArgs e)
         {
-            Favourites formFavourites = new Favourites();
-            formFavourites.Show();
-            this.Hide();
+
         }
     }
 }

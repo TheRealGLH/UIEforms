@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace design_forms
@@ -17,6 +11,8 @@ namespace design_forms
             InitializeComponent();
 
             loadStrings();
+
+            loadData();
         }
 
         private void loadStrings()
@@ -33,23 +29,39 @@ namespace design_forms
             this.buttonCancel.Text = Properties.Resources.textCancel;
         }
 
+        private void loadData()
+        {
+            int x = 0;
+            this.comboBoxLanguage.DataSource = ObjectManager.languages;
+
+            for(; x < ObjectManager.languages.Length; x++)
+            {
+                CultureInfo cultureInfo = ObjectManager.languages[x];
+                if(System.Threading.Thread.CurrentThread.CurrentUICulture.Equals(cultureInfo))
+                {
+                    break;
+                }
+            }
+
+            if(x >= ObjectManager.languages.Length)
+            {
+                x = 0;
+            }
+
+            this.comboBoxLanguage.SelectedIndex = x;
+        }
+
         private void buttonLoadPreset_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void buttonOk_Click(object sender, EventArgs e)
+        public CultureInfo language
         {
-            FormMainWindow formMain = new FormMainWindow();
-            formMain.Show();
-            this.Hide();
-        }
-
-        private void buttonCancel_Click(object sender, EventArgs e)
-        {
-            FormMainWindow formMain = new FormMainWindow();
-            formMain.Show();
-            this.Hide();
+            get
+            {
+                return this.comboBoxLanguage.SelectedValue as CultureInfo;
+            }
         }
     }
 }

@@ -117,129 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="EmulatorListLvcDeveloper" xml:space="preserve">
-    <value>Ontwikkelaar</value>
-  </data>
-  <data name="EmulatorListLvcName" xml:space="preserve">
-    <value>Naam</value>
-  </data>
-  <data name="EmulatorListLvcPlatform" xml:space="preserve">
-    <value>Platform</value>
-  </data>
-  <data name="EmulatorListLvcVersion" xml:space="preserve">
-    <value>Versie</value>
-  </data>
-  <data name="EmulatorListName" xml:space="preserve">
-    <value>Emulatorlijst</value>
-  </data>
-  <data name="EmulatorListRun" xml:space="preserve">
-    <value>Starten</value>
-  </data>
-  <data name="FavouritesName" xml:space="preserve">
-    <value>Favorieten</value>
-  </data>
-  <data name="FavoutritesListViewName" xml:space="preserve">
-    <value>Naam</value>
-  </data>
-  <data name="FavoutritesListViewPlatform" xml:space="preserve">
-    <value>Platform</value>
-  </data>
-  <data name="GenBackToMenu" xml:space="preserve">
-    <value>Terug naar menu</value>
-  </data>
-  <data name="GenEmulator" xml:space="preserve">
-    <value>Emulator</value>
-  </data>
-  <data name="GenGame" xml:space="preserve">
-    <value>Spel</value>
-  </data>
-  <data name="HelpAbout" xml:space="preserve">
-    <value>Over</value>
-  </data>
-  <data name="HelpBugReport" xml:space="preserve">
-    <value>Geef bug aan</value>
-  </data>
-  <data name="HelpForum" xml:space="preserve">
-    <value>Bezoek forum</value>
-  </data>
-  <data name="HelpName" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="ListAdd" xml:space="preserve">
-    <value>Toevoegen</value>
-  </data>
-  <data name="ListAddFavourite" xml:space="preserve">
-    <value>Toevoegen aan favorieten</value>
-  </data>
-  <data name="ListEdit" xml:space="preserve">
-    <value>Wijzigen</value>
-  </data>
-  <data name="ListRemove" xml:space="preserve">
-    <value>Verwijderen</value>
-  </data>
-  <data name="MainEmulator" xml:space="preserve">
-    <value>Emulator</value>
-  </data>
-  <data name="MainGame" xml:space="preserve">
-    <value>Spel</value>
-  </data>
-  <data name="MainHelp" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="MainSearch" xml:space="preserve">
-    <value>Zoeken</value>
-  </data>
-  <data name="MainSettings" xml:space="preserve">
-    <value>Instellingen</value>
-  </data>
-  <data name="SearchEdit" xml:space="preserve">
-    <value>Pas aan</value>
-  </data>
-  <data name="SearchName" xml:space="preserve">
-    <value>Zoek</value>
-  </data>
-  <data name="SearchPlayRun" xml:space="preserve">
-    <value>Speel/ Draai</value>
-  </data>
-  <data name="SearchViewName" xml:space="preserve">
-    <value>Naam</value>
-  </data>
-  <data name="SearchViewPlatform" xml:space="preserve">
-    <value>Platform</value>
-  </data>
-  <data name="SettingsHeaderUI" xml:space="preserve">
-    <value>UI</value>
-  </data>
-  <data name="SettingsLoadPreset" xml:space="preserve">
-    <value>Laad Preset</value>
-  </data>
-  <data name="SettingsName" xml:space="preserve">
-    <value>Instellingen</value>
-  </data>
-  <data name="SettingsOptionBGColor" xml:space="preserve">
-    <value>Achtergrondkleur</value>
-  </data>
-  <data name="SettingsOptionLanguage" xml:space="preserve">
-    <value>Taal</value>
-  </data>
-  <data name="SettingsOptionsFont" xml:space="preserve">
-    <value>Lettertype</value>
-  </data>
-  <data name="SettingsOptionsScale" xml:space="preserve">
-    <value>Schaal</value>
-  </data>
-  <data name="SettingsScaleBig" xml:space="preserve">
-    <value>Groot</value>
-  </data>
-  <data name="SettingsScaleExtraBig" xml:space="preserve">
-    <value>Extra Groot</value>
-  </data>
-  <data name="SettingsScaleMedium" xml:space="preserve">
-    <value>Medium</value>
-  </data>
-  <data name="SettingsScaleSmall" xml:space="preserve">
-    <value>Klein</value>
-  </data>
   <data name="textAbout" xml:space="preserve">
     <value>Over</value>
   </data>
@@ -276,6 +153,9 @@
   <data name="textEmulator" xml:space="preserve">
     <value>Emulator</value>
   </data>
+  <data name="textEmulatorAlreadyAdded" xml:space="preserve">
+    <value>Deze emulator is al toegevoegd</value>
+  </data>
   <data name="textFavourites" xml:space="preserve">
     <value>Favourieten</value>
   </data>
@@ -288,11 +168,38 @@
   <data name="textGame" xml:space="preserve">
     <value>Spel</value>
   </data>
+  <data name="textGameAlreadyAdded" xml:space="preserve">
+    <value>Dit spel is al toegevoegd</value>
+  </data>
   <data name="textGeneral" xml:space="preserve">
     <value>Generaal</value>
   </data>
   <data name="textHelp" xml:space="preserve">
     <value>Help</value>
+  </data>
+  <data name="textInvalidEmulatorDeveloper" xml:space="preserve">
+    <value>De gegeven emulator developer is ongeldig</value>
+  </data>
+  <data name="textInvalidEmulatorLocation" xml:space="preserve">
+    <value>De gegeven emulator locatie is ongeldig</value>
+  </data>
+  <data name="textInvalidEmulatorName" xml:space="preserve">
+    <value>De gegeven emulator naam is ongeldig</value>
+  </data>
+  <data name="textInvalidEmulatorPlatform" xml:space="preserve">
+    <value>De gegeven emulator platform is ongeldig</value>
+  </data>
+  <data name="textInvalidGameEmulator" xml:space="preserve">
+    <value>De gegeven spel emulator is ongeldig</value>
+  </data>
+  <data name="textInvalidGameLocation" xml:space="preserve">
+    <value>De gegeven spel locatie is ongeldig</value>
+  </data>
+  <data name="textInvalidGameName" xml:space="preserve">
+    <value>De gegeven spel naam is ongeldig</value>
+  </data>
+  <data name="textInvalidInput" xml:space="preserve">
+    <value>Ongeldige invoer</value>
   </data>
   <data name="textLanguage" xml:space="preserve">
     <value>Taal</value>
