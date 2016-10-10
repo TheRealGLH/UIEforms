@@ -26,6 +26,9 @@ namespace design_forms
 
         private void buttonGame_Click(object sender, EventArgs e)
         {
+            FormGameList formGameList = new FormGameList();
+            formGameList.ShowDialog(this);
+            /*
             FormAddEditGame formAddEditGame = new FormAddEditGame();
             DialogResult dialogResult = formAddEditGame.ShowDialog(this);
 
@@ -35,10 +38,14 @@ namespace design_forms
             }
 
             ObjectManager.instance.games.Add(formAddEditGame.game);
+            */
         }
 
         private void buttonEmulator_Click(object sender, EventArgs e)
         {
+            FormEmulatorList formEmulatorList = new FormEmulatorList();
+            formEmulatorList.ShowDialog(this);
+            /*
             FormAddEditEmulator formAddEditEmulator = new FormAddEditEmulator();
             DialogResult dialogResult = formAddEditEmulator.ShowDialog(this);
 
@@ -48,6 +55,7 @@ namespace design_forms
             }
 
             ObjectManager.instance.emulators.Add(formAddEditEmulator.emulator);
+            */
         }
 
         private void buttonSearch_Click(object sender, EventArgs e)
@@ -79,12 +87,14 @@ namespace design_forms
 
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-
+            FormHelp formHelp = new FormHelp();
+            formHelp.ShowDialog(this);
         }
 
         private void buttonFavourites_Click(object sender, EventArgs e)
         {
-
+            FormFavourites formFavourites = new FormFavourites();
+            formFavourites.ShowDialog(this);
         }
     }
 }

@@ -139,7 +139,7 @@ namespace design_forms
         {
             Game game = this.listBoxResults.SelectedItem as Game;
 
-            MessageBox.Show(Properties.Resources.textDummyPlay, string.Empty, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(string.Format(Properties.Resources.textDummyPlay, game.name), string.Empty, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void buttonEdit_Click(object sender, EventArgs e)

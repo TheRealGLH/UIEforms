@@ -57,6 +57,24 @@
     <Compile Include="FormAddEditGame.Designer.cs">
       <DependentUpon>FormAddEditGame.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormEmulatorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmulatorList.Designer.cs">
+      <DependentUpon>FormEmulatorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFavourites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFavourites.Designer.cs">
+      <DependentUpon>FormFavourites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGameList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGameList.Designer.cs">
+      <DependentUpon>FormGameList.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormHelp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +113,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormAddEditGame.resx">
       <DependentUpon>FormAddEditGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmulatorList.resx">
+      <DependentUpon>FormEmulatorList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFavourites.resx">
+      <DependentUpon>FormFavourites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGameList.resx">
+      <DependentUpon>FormGameList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormHelp.resx">
       <DependentUpon>FormHelp.cs</DependentUpon>

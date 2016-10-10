@@ -37,10 +37,10 @@
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.listBoxResults = new System.Windows.Forms.ListBox();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.buttonPlay = new System.Windows.Forms.Button();
             this.buttonEdit = new System.Windows.Forms.Button();
-            this.listBoxResults = new System.Windows.Forms.ListBox();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
@@ -188,6 +188,18 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(776, 157);
             this.tableLayoutPanel4.TabIndex = 4;
             // 
+            // listBoxResults
+            // 
+            this.listBoxResults.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxResults.FormattingEnabled = true;
+            this.listBoxResults.ItemHeight = 16;
+            this.listBoxResults.Location = new System.Drawing.Point(197, 3);
+            this.listBoxResults.Name = "listBoxResults";
+            this.listBoxResults.Size = new System.Drawing.Size(382, 151);
+            this.listBoxResults.Sorted = true;
+            this.listBoxResults.TabIndex = 0;
+            this.listBoxResults.SelectedIndexChanged += new System.EventHandler(this.listBoxResults_SelectedIndexChanged);
+            // 
             // tableLayoutPanel5
             // 
             this.tableLayoutPanel5.AutoSize = true;
@@ -238,18 +250,6 @@
             this.buttonEdit.UseVisualStyleBackColor = true;
             this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
-            // listBoxResults
-            // 
-            this.listBoxResults.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxResults.FormattingEnabled = true;
-            this.listBoxResults.ItemHeight = 16;
-            this.listBoxResults.Location = new System.Drawing.Point(197, 3);
-            this.listBoxResults.Name = "listBoxResults";
-            this.listBoxResults.Size = new System.Drawing.Size(382, 151);
-            this.listBoxResults.Sorted = true;
-            this.listBoxResults.TabIndex = 0;
-            this.listBoxResults.SelectedIndexChanged += new System.EventHandler(this.listBoxResults_SelectedIndexChanged);
-            // 
             // FormSearch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -258,6 +258,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.MinimumSize = new System.Drawing.Size(800, 600);
             this.Name = "FormSearch";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Search";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

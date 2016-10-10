@@ -70,6 +70,24 @@ namespace design_forms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add.
+        /// </summary>
+        internal static string textAdd {
+            get {
+                return ResourceManager.GetString("textAdd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Added to favourites.
+        /// </summary>
+        internal static string textAddedToFavourites {
+            get {
+                return ResourceManager.GetString("textAddedToFavourites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Add Emulator.
         /// </summary>
         internal static string textAddEmulator {
@@ -84,6 +102,15 @@ namespace design_forms.Properties {
         internal static string textAddGame {
             get {
                 return ResourceManager.GetString("textAddGame", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add to Favourites.
+        /// </summary>
+        internal static string textAddToFavourites {
+            get {
+                return ResourceManager.GetString("textAddToFavourites", resourceCulture);
             }
         }
         
@@ -120,6 +147,15 @@ namespace design_forms.Properties {
         internal static string textColor {
             get {
                 return ResourceManager.GetString("textColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confirmation.
+        /// </summary>
+        internal static string textConfirmation {
+            get {
+                return ResourceManager.GetString("textConfirmation", resourceCulture);
             }
         }
         
@@ -187,6 +223,15 @@ namespace design_forms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Emulators.
+        /// </summary>
+        internal static string textEmulators {
+            get {
+                return ResourceManager.GetString("textEmulators", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Favourites.
         /// </summary>
         internal static string textFavourites {
@@ -228,6 +273,15 @@ namespace design_forms.Properties {
         internal static string textGameAlreadyAdded {
             get {
                 return ResourceManager.GetString("textGameAlreadyAdded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Games.
+        /// </summary>
+        internal static string textGames {
+            get {
+                return ResourceManager.GetString("textGames", resourceCulture);
             }
         }
         
@@ -381,6 +435,15 @@ namespace design_forms.Properties {
         internal static string textPlay {
             get {
                 return ResourceManager.GetString("textPlay", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove.
+        /// </summary>
+        internal static string textRemove {
+            get {
+                return ResourceManager.GetString("textRemove", resourceCulture);
             }
         }
         

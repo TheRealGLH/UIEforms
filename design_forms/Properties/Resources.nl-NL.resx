@@ -120,11 +120,20 @@
   <data name="textAbout" xml:space="preserve">
     <value>Over</value>
   </data>
+  <data name="textAdd" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="textAddedToFavourites" xml:space="preserve">
+    <value>Toegevoegd aan favourieten</value>
+  </data>
   <data name="textAddEmulator" xml:space="preserve">
     <value>Voeg Emulator Toe</value>
   </data>
   <data name="textAddGame" xml:space="preserve">
     <value>Voeg Spel Toe</value>
+  </data>
+  <data name="textAddToFavourites" xml:space="preserve">
+    <value>Toevoegen aan Favourieten</value>
   </data>
   <data name="textAutofillMetadata" xml:space="preserve">
     <value>Vul Meta-Data</value>
@@ -137,6 +146,9 @@
   </data>
   <data name="textColor" xml:space="preserve">
     <value>Kleur</value>
+  </data>
+  <data name="textConfirmation" xml:space="preserve">
+    <value>Bevestiging</value>
   </data>
   <data name="textDeveloper" xml:space="preserve">
     <value>Ontwikkelaar</value>
@@ -156,6 +168,9 @@
   <data name="textEmulatorAlreadyAdded" xml:space="preserve">
     <value>Deze emulator is al toegevoegd</value>
   </data>
+  <data name="textEmulators" xml:space="preserve">
+    <value>Emulatoren</value>
+  </data>
   <data name="textFavourites" xml:space="preserve">
     <value>Favourieten</value>
   </data>
@@ -170,6 +185,9 @@
   </data>
   <data name="textGameAlreadyAdded" xml:space="preserve">
     <value>Dit spel is al toegevoegd</value>
+  </data>
+  <data name="textGames" xml:space="preserve">
+    <value>Spellen</value>
   </data>
   <data name="textGeneral" xml:space="preserve">
     <value>Generaal</value>
@@ -222,6 +240,9 @@
   <data name="textPlay" xml:space="preserve">
     <value>Speel</value>
   </data>
+  <data name="textRemove" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
   <data name="textScale" xml:space="preserve">
     <value>Schaal</value>
   </data>
@@ -229,7 +250,7 @@
     <value>Zoek</value>
   </data>
   <data name="textSettings" xml:space="preserve">
-    <value>Settings</value>
+    <value>Instellingen</value>
   </data>
   <data name="textTitle" xml:space="preserve">
     <value>Titel</value>
