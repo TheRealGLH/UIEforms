@@ -53,6 +53,7 @@
             this.btnMenu.TabIndex = 8;
             this.btnMenu.Text = "Back To Menu";
             this.btnMenu.UseVisualStyleBackColor = true;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // lvcItems
             // 
@@ -90,9 +91,11 @@
             // 
             // pbIcon
             // 
-            this.pbIcon.Location = new System.Drawing.Point(347, 12);
+            this.pbIcon.Image = global::design_forms.Properties.Resources.imageedit_1_4773648694;
+            this.pbIcon.Location = new System.Drawing.Point(314, 12);
             this.pbIcon.Name = "pbIcon";
-            this.pbIcon.Size = new System.Drawing.Size(100, 67);
+            this.pbIcon.Size = new System.Drawing.Size(150, 67);
+            this.pbIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbIcon.TabIndex = 14;
             this.pbIcon.TabStop = false;
             // 
@@ -104,6 +107,7 @@
             this.btnPlay.TabIndex = 13;
             this.btnPlay.Text = "Play";
             this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // btnFavorites
             // 
@@ -113,6 +117,7 @@
             this.btnFavorites.TabIndex = 12;
             this.btnFavorites.Text = "Add To Favorites";
             this.btnFavorites.UseVisualStyleBackColor = true;
+            this.btnFavorites.Click += new System.EventHandler(this.btnFavorites_Click);
             // 
             // btnRemove
             // 
@@ -122,6 +127,7 @@
             this.btnRemove.TabIndex = 11;
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // btnEdit
             // 
@@ -131,6 +137,7 @@
             this.btnEdit.TabIndex = 10;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnAdd
             // 
@@ -140,6 +147,7 @@
             this.btnAdd.TabIndex = 9;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // lblName
             // 

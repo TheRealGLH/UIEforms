@@ -69,5 +69,12 @@ namespace design_forms
                 return this.textBoxLocation.Text;
             }
         }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+            gameList formGame = new gameList();
+            formGame.Show();
+            this.Hide();
+        }
     }
 }

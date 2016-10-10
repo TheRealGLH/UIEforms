@@ -41,5 +41,12 @@ namespace design_forms
             this.btnMenu.Text = Properties.Resources.GenBackToMenu;
             this.Text = Properties.Resources.FavouritesName;
         }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            FormMainWindow formMain = new FormMainWindow();
+            formMain.Show();
+            this.Hide();
+        }
     }
 }

@@ -77,5 +77,12 @@ namespace design_forms
                 return this.textBoxLocation.Text;
             }
         }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+            EmulatorList formEmulator = new EmulatorList();
+            formEmulator.Show();
+            this.Hide();
+        }
     }
 }

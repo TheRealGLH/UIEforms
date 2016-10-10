@@ -51,24 +51,28 @@
             this.tableLayoutPanel1.Controls.Add(this.buttonAbout, 0, 5);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 7;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(782, 553);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(586, 449);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // pictureBoxLogo
             // 
             this.pictureBoxLogo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBoxLogo.Location = new System.Drawing.Point(341, 3);
+            this.pictureBoxLogo.Image = global::design_forms.Properties.Resources.imageedit_1_4773648694;
+            this.pictureBoxLogo.Location = new System.Drawing.Point(192, 2);
+            this.pictureBoxLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(100, 100);
+            this.pictureBoxLogo.Size = new System.Drawing.Size(213, 81);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxLogo.TabIndex = 0;
             this.pictureBoxLogo.TabStop = false;
             // 
@@ -77,9 +81,10 @@
             this.labelTitle.AutoSize = true;
             this.labelTitle.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitle.Location = new System.Drawing.Point(3, 106);
+            this.labelTitle.Location = new System.Drawing.Point(2, 85);
+            this.labelTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(776, 48);
+            this.labelTitle.Size = new System.Drawing.Size(582, 39);
             this.labelTitle.TabIndex = 1;
             this.labelTitle.Text = "Help";
             this.labelTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -90,9 +95,10 @@
             this.buttonForum.AutoSize = true;
             this.buttonForum.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonForum.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonForum.Location = new System.Drawing.Point(328, 197);
+            this.buttonForum.Location = new System.Drawing.Point(242, 158);
+            this.buttonForum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonForum.Name = "buttonForum";
-            this.buttonForum.Size = new System.Drawing.Size(125, 49);
+            this.buttonForum.Size = new System.Drawing.Size(102, 41);
             this.buttonForum.TabIndex = 2;
             this.buttonForum.Text = "Forum";
             this.buttonForum.UseVisualStyleBackColor = true;
@@ -104,9 +110,10 @@
             this.buttonBugReport.AutoSize = true;
             this.buttonBugReport.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonBugReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonBugReport.Location = new System.Drawing.Point(291, 252);
+            this.buttonBugReport.Location = new System.Drawing.Point(212, 203);
+            this.buttonBugReport.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonBugReport.Name = "buttonBugReport";
-            this.buttonBugReport.Size = new System.Drawing.Size(199, 49);
+            this.buttonBugReport.Size = new System.Drawing.Size(161, 41);
             this.buttonBugReport.TabIndex = 3;
             this.buttonBugReport.Text = "Bug Report";
             this.buttonBugReport.UseVisualStyleBackColor = true;
@@ -118,9 +125,10 @@
             this.buttonAbout.AutoSize = true;
             this.buttonAbout.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAbout.Location = new System.Drawing.Point(333, 307);
+            this.buttonAbout.Location = new System.Drawing.Point(245, 248);
+            this.buttonAbout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonAbout.Name = "buttonAbout";
-            this.buttonAbout.Size = new System.Drawing.Size(116, 49);
+            this.buttonAbout.Size = new System.Drawing.Size(95, 41);
             this.buttonAbout.TabIndex = 4;
             this.buttonAbout.Text = "About";
             this.buttonAbout.UseVisualStyleBackColor = true;
@@ -128,10 +136,11 @@
             // 
             // FormHelp
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 553);
+            this.ClientSize = new System.Drawing.Size(586, 449);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormHelp";
             this.Text = "Help";
             this.tableLayoutPanel1.ResumeLayout(false);

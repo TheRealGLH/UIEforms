@@ -49,9 +49,11 @@
             // 
             // logo
             // 
-            this.logo.Location = new System.Drawing.Point(324, 12);
+            this.logo.Image = global::design_forms.Properties.Resources.imageedit_1_4773648694;
+            this.logo.Location = new System.Drawing.Point(268, 12);
             this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(100, 88);
+            this.logo.Size = new System.Drawing.Size(200, 100);
+            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.logo.TabIndex = 9;
             this.logo.TabStop = false;
             // 
@@ -59,7 +61,7 @@
             // 
             this.lblHelpName.AutoSize = true;
             this.lblHelpName.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHelpName.Location = new System.Drawing.Point(335, 103);
+            this.lblHelpName.Location = new System.Drawing.Point(327, 115);
             this.lblHelpName.Name = "lblHelpName";
             this.lblHelpName.Size = new System.Drawing.Size(89, 31);
             this.lblHelpName.TabIndex = 10;

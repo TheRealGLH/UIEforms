@@ -37,5 +37,19 @@ namespace design_forms
         {
 
         }
+
+        private void buttonOk_Click(object sender, EventArgs e)
+        {
+            FormMainWindow formMain = new FormMainWindow();
+            formMain.Show();
+            this.Hide();
+        }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+            FormMainWindow formMain = new FormMainWindow();
+            formMain.Show();
+            this.Hide();
+        }
     }
 }

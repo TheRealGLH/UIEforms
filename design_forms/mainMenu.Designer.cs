@@ -33,7 +33,6 @@
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnEmulator = new System.Windows.Forms.Button();
             this.btnGame = new System.Windows.Forms.Button();
-            this.lblSearchName = new System.Windows.Forms.Label();
             this.logo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.SuspendLayout();
@@ -88,21 +87,13 @@
             this.btnGame.Text = "%Game";
             this.btnGame.UseVisualStyleBackColor = true;
             // 
-            // lblSearchName
-            // 
-            this.lblSearchName.AutoSize = true;
-            this.lblSearchName.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSearchName.Location = new System.Drawing.Point(322, 103);
-            this.lblSearchName.Name = "lblSearchName";
-            this.lblSearchName.Size = new System.Drawing.Size(132, 31);
-            this.lblSearchName.TabIndex = 21;
-            this.lblSearchName.Text = "%Unilator";
-            // 
             // logo
             // 
-            this.logo.Location = new System.Drawing.Point(337, 12);
+            this.logo.Image = global::design_forms.Properties.Resources.imageedit_1_4773648694;
+            this.logo.Location = new System.Drawing.Point(264, 25);
             this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(100, 88);
+            this.logo.Size = new System.Drawing.Size(250, 88);
+            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.logo.TabIndex = 20;
             this.logo.TabStop = false;
             // 
@@ -116,13 +107,11 @@
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnEmulator);
             this.Controls.Add(this.btnGame);
-            this.Controls.Add(this.lblSearchName);
             this.Controls.Add(this.logo);
             this.Name = "MainMenu";
             this.Text = "MainMenu";
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -133,7 +122,6 @@
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnEmulator;
         private System.Windows.Forms.Button btnGame;
-        private System.Windows.Forms.Label lblSearchName;
         private System.Windows.Forms.PictureBox logo;
     }
 }

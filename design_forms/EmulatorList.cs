@@ -32,5 +32,41 @@ namespace design_forms
             this.lvcItems.Columns[2].Text = Properties.Resources.EmulatorListLvcPlatform;
             this.lvcItems.Columns[3].Text = Properties.Resources.EmulatorListLvcVersion;
         }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            FormMainWindow formMain = new FormMainWindow();
+            formMain.Show();
+            this.Hide();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            FormAddEditEmulator formAddEditEmulator = new FormAddEditEmulator(false);
+            formAddEditEmulator.Show();
+            this.Hide();
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            FormAddEditEmulator formAddEditEmulator = new FormAddEditEmulator(true);
+            formAddEditEmulator.Show();
+            this.Hide();
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFavorites_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

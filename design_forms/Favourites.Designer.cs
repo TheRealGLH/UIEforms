@@ -57,6 +57,7 @@
             this.btnMenu.TabIndex = 9;
             this.btnMenu.Text = "Back To Menu";
             this.btnMenu.UseVisualStyleBackColor = true;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // lvcItems
             // 
