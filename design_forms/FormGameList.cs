@@ -82,6 +82,8 @@ namespace design_forms
 
             ObjectManager.instance.games.Remove((Game)listViewItem.Tag);
 
+            MessageBox.Show((Game)listViewItem.Tag + " Removed");
+
             loadData();
         }
 

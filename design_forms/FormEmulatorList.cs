@@ -80,7 +80,7 @@ namespace design_forms
             ListViewItem listViewItem = this.listViewEmulators.SelectedItems[0];
 
             ObjectManager.instance.emulators.Remove((Emulator)listViewItem.Tag);
-
+            MessageBox.Show((Emulator)listViewItem.Tag + " Removed");
             loadData();
         }
 

@@ -99,7 +99,7 @@ namespace design_forms
 
         private void buttonAutofill_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Metadata not found");
         }
 
         private void buttonOk_Click(object sender, EventArgs e)
