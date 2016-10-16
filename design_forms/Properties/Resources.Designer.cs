@@ -359,6 +359,15 @@ namespace design_forms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Game.
+        /// </summary>
+        internal static string textGame {
+            get {
+                return ResourceManager.GetString("textGame", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This game is already added.
         /// </summary>
         internal static string textGameAlreadyAdded {
