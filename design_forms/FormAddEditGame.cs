@@ -1,15 +1,24 @@
 ﻿using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace design_forms
 {
     public partial class FormAddEditGame : Form
     {
-        public FormAddEditGame(bool editing)
+        private bool canClose;
+
+        public FormAddEditGame(Game game = null)
         {
+            this.canClose = true;
+
+            this.game = game;
+
             InitializeComponent();
 
-            loadStrings(editing);
+            loadStrings(game == null);
+
+            loadData();
         }
 
         private void loadStrings(bool editing)
@@ -35,6 +44,48 @@ namespace design_forms
             this.buttonCancel.Text = Properties.Resources.textCancel;
         }
 
+        private void loadData()
+        {
+            foreach(Emulator emulator in ObjectManager.instance.emulators)
+            {
+                this.comboBoxEmulator.Items.Add(emulator);
+            }
+
+            if(this.game == null)
+            {
+                return;
+            }
+
+            int x = 0;
+            foreach(Emulator emulator in ObjectManager.instance.emulators)
+            {
+                if (this.game.emulator.Equals(emulator))
+                {
+                    break;
+                }
+
+                x++;
+            }
+
+            if(x < ObjectManager.instance.emulators.Count)
+            {
+                this.comboBoxEmulator.SelectedIndex = x;
+            }
+
+            this.textBoxTitle.Text = this.game.name;
+            this.textBoxLocation.Text = this.game.location;
+        }
+
+        private void FormAddEditGame_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(!this.canClose)
+            {
+                this.canClose = true;
+
+                e.Cancel = true;
+            }
+        }
+
         private void buttonBrowse_Click(object sender, EventArgs e)
         {
             DialogResult dialogResult = this.openFileDialog.ShowDialog();
@@ -46,35 +97,59 @@ namespace design_forms
             this.textBoxLocation.Text = this.openFileDialog.FileName;
         }
 
-        public string title
+        private void buttonAutofill_Click(object sender, EventArgs e)
         {
-            get
+
+        }
+
+        private void buttonOk_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(this.textBoxTitle.Text))
             {
-                return this.textBoxTitle.Text;
+                this.canClose = false;
+
+                MessageBox.Show(Properties.Resources.textInvalidGameName, Properties.Resources.textInvalidInput, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            Emulator emulator = this.comboBoxEmulator.SelectedItem as Emulator;
+            if (emulator == null)
+            {
+                this.canClose = false;
+
+                MessageBox.Show(Properties.Resources.textInvalidGameEmulator, Properties.Resources.textInvalidInput, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (!File.Exists(this.textBoxLocation.Text))
+            {
+                this.canClose = false;
+
+                MessageBox.Show(Properties.Resources.textInvalidGameLocation, Properties.Resources.textInvalidInput, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            if (this.game == null)
+            {
+                Game game = new Game(this.textBoxTitle.Text, emulator, this.textBoxLocation.Text);
+                if (ObjectManager.instance.games.Contains(game))
+                {
+                    this.canClose = false;
+
+                    MessageBox.Show(Properties.Resources.textGameAlreadyAdded, Properties.Resources.textInvalidInput, MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    return;
+                }
+
+                this.game = game;
+            }
+            else
+            {
+                this.game.emulator = emulator;
+                this.game.location = this.textBoxLocation.Text;
             }
         }
 
-        public string emulator
+        public Game game
         {
-            get
-            {
-                return this.textBoxEmulator.Text;
-            }
-        }
-
-        public string location
-        {
-            get
-            {
-                return this.textBoxLocation.Text;
-            }
-        }
-
-        private void buttonCancel_Click(object sender, EventArgs e)
-        {
-            gameList formGame = new gameList();
-            formGame.Show();
-            this.Hide();
+            get;
+            private set;
         }
     }
 }

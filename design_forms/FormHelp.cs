@@ -23,24 +23,6 @@ namespace design_forms
         {
             base.Text = Properties.Resources.textHelp;
             this.labelTitle.Text = Properties.Resources.textHelp;
-            this.buttonForum.Text = Properties.Resources.textForum;
-            this.buttonBugReport.Text = Properties.Resources.textBugReport;
-            this.buttonAbout.Text = Properties.Resources.textAbout;
-        }
-
-        private void buttonForum_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonBugReport_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonAbout_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -37,8 +37,7 @@
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeaderName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listBoxResults = new System.Windows.Forms.ListBox();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.buttonPlay = new System.Windows.Forms.Button();
             this.buttonEdit = new System.Windows.Forms.Button();
@@ -54,6 +53,8 @@
             // 
             this.tableLayoutPanel1.AutoSize = true;
             this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel1.BackgroundImage = global::design_forms.Properties.Resources.background;
+            this.tableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.pictureBoxLogo, 0, 0);
@@ -76,17 +77,18 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(586, 449);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(588, 456);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // pictureBoxLogo
             // 
             this.pictureBoxLogo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBoxLogo.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxLogo.Image = global::design_forms.Properties.Resources.imageedit_1_4773648694;
-            this.pictureBoxLogo.Location = new System.Drawing.Point(218, 2);
+            this.pictureBoxLogo.Location = new System.Drawing.Point(194, 2);
             this.pictureBoxLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(150, 81);
+            this.pictureBoxLogo.Size = new System.Drawing.Size(200, 150);
             this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxLogo.TabIndex = 0;
             this.pictureBoxLogo.TabStop = false;
@@ -94,12 +96,13 @@
             // labelTitle
             // 
             this.labelTitle.AutoSize = true;
+            this.labelTitle.BackColor = System.Drawing.Color.Transparent;
             this.labelTitle.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitle.Location = new System.Drawing.Point(2, 85);
+            this.labelTitle.Font = new System.Drawing.Font("Monotype Corsiva", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.Location = new System.Drawing.Point(2, 154);
             this.labelTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(582, 39);
+            this.labelTitle.Size = new System.Drawing.Size(584, 43);
             this.labelTitle.TabIndex = 1;
             this.labelTitle.Text = "Search";
             this.labelTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -108,6 +111,7 @@
             // 
             this.tableLayoutPanel2.AutoSize = true;
             this.tableLayoutPanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel2.ColumnCount = 5;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -117,23 +121,24 @@
             this.tableLayoutPanel2.Controls.Add(this.buttonGame, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.buttonEmulator, 3, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 158);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 231);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(582, 45);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(584, 47);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // buttonGame
             // 
             this.buttonGame.AutoSize = true;
             this.buttonGame.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonGame.Location = new System.Drawing.Point(159, 2);
+            this.buttonGame.Enabled = false;
+            this.buttonGame.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonGame.Location = new System.Drawing.Point(177, 2);
             this.buttonGame.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonGame.Name = "buttonGame";
-            this.buttonGame.Size = new System.Drawing.Size(97, 41);
+            this.buttonGame.Size = new System.Drawing.Size(79, 43);
             this.buttonGame.TabIndex = 0;
             this.buttonGame.Text = "Game";
             this.buttonGame.UseVisualStyleBackColor = true;
@@ -143,11 +148,11 @@
             // 
             this.buttonEmulator.AutoSize = true;
             this.buttonEmulator.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonEmulator.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonEmulator.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEmulator.Location = new System.Drawing.Point(290, 2);
             this.buttonEmulator.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonEmulator.Name = "buttonEmulator";
-            this.buttonEmulator.Size = new System.Drawing.Size(132, 41);
+            this.buttonEmulator.Size = new System.Drawing.Size(116, 43);
             this.buttonEmulator.TabIndex = 1;
             this.buttonEmulator.Text = "Emulator";
             this.buttonEmulator.UseVisualStyleBackColor = true;
@@ -157,69 +162,70 @@
             // 
             this.tableLayoutPanel3.AutoSize = true;
             this.tableLayoutPanel3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel3.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel3.ColumnCount = 3;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.Controls.Add(this.textBoxSearch, 1, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(2, 207);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(2, 282);
             this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(582, 24);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(584, 33);
             this.tableLayoutPanel3.TabIndex = 3;
             // 
             // textBoxSearch
             // 
             this.textBoxSearch.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxSearch.Location = new System.Drawing.Point(147, 2);
+            this.textBoxSearch.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSearch.Location = new System.Drawing.Point(148, 2);
             this.textBoxSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxSearch.Name = "textBoxSearch";
-            this.textBoxSearch.Size = new System.Drawing.Size(287, 20);
+            this.textBoxSearch.Size = new System.Drawing.Size(288, 29);
             this.textBoxSearch.TabIndex = 0;
+            this.textBoxSearch.TextChanged += new System.EventHandler(this.textBoxSearch_TextChanged);
             // 
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.AutoSize = true;
             this.tableLayoutPanel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel4.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel4.ColumnCount = 3;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel4.Controls.Add(this.listView1, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.listBoxResults, 1, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(2, 267);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(2, 351);
             this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(582, 131);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(584, 52);
             this.tableLayoutPanel4.TabIndex = 4;
             // 
-            // listView1
+            // listBoxResults
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeaderName});
-            this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listView1.GridLines = true;
-            this.listView1.Location = new System.Drawing.Point(147, 2);
-            this.listView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(287, 145);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeaderName
-            // 
-            this.columnHeaderName.Text = "Name";
+            this.listBoxResults.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxResults.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBoxResults.FormattingEnabled = true;
+            this.listBoxResults.ItemHeight = 22;
+            this.listBoxResults.Location = new System.Drawing.Point(148, 2);
+            this.listBoxResults.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBoxResults.Name = "listBoxResults";
+            this.listBoxResults.Size = new System.Drawing.Size(288, 145);
+            this.listBoxResults.Sorted = true;
+            this.listBoxResults.TabIndex = 0;
+            this.listBoxResults.SelectedIndexChanged += new System.EventHandler(this.listBoxResults_SelectedIndexChanged);
             // 
             // tableLayoutPanel5
             // 
             this.tableLayoutPanel5.AutoSize = true;
             this.tableLayoutPanel5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel5.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel5.ColumnCount = 5;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -229,12 +235,12 @@
             this.tableLayoutPanel5.Controls.Add(this.buttonPlay, 1, 0);
             this.tableLayoutPanel5.Controls.Add(this.buttonEdit, 3, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(2, 402);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(2, 407);
             this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(582, 45);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(584, 47);
             this.tableLayoutPanel5.TabIndex = 5;
             // 
             // buttonPlay
@@ -242,11 +248,12 @@
             this.buttonPlay.AutoSize = true;
             this.buttonPlay.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonPlay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPlay.Location = new System.Drawing.Point(200, 2);
+            this.buttonPlay.Enabled = false;
+            this.buttonPlay.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPlay.Location = new System.Drawing.Point(206, 2);
             this.buttonPlay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonPlay.Name = "buttonPlay";
-            this.buttonPlay.Size = new System.Drawing.Size(77, 41);
+            this.buttonPlay.Size = new System.Drawing.Size(68, 43);
             this.buttonPlay.TabIndex = 0;
             this.buttonPlay.Text = "Play";
             this.buttonPlay.UseVisualStyleBackColor = true;
@@ -257,11 +264,12 @@
             this.buttonEdit.AutoSize = true;
             this.buttonEdit.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonEdit.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEdit.Location = new System.Drawing.Point(311, 2);
+            this.buttonEdit.Enabled = false;
+            this.buttonEdit.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonEdit.Location = new System.Drawing.Point(308, 2);
             this.buttonEdit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(71, 41);
+            this.buttonEdit.Size = new System.Drawing.Size(70, 43);
             this.buttonEdit.TabIndex = 1;
             this.buttonEdit.Text = "Edit";
             this.buttonEdit.UseVisualStyleBackColor = true;
@@ -271,10 +279,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(586, 449);
+            this.ClientSize = new System.Drawing.Size(588, 456);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MinimumSize = new System.Drawing.Size(604, 495);
             this.Name = "FormSearch";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Search";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
@@ -302,10 +312,9 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.TextBox textBoxSearch;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader columnHeaderName;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private System.Windows.Forms.Button buttonPlay;
         private System.Windows.Forms.Button buttonEdit;
+        private System.Windows.Forms.ListBox listBoxResults;
     }
 }
