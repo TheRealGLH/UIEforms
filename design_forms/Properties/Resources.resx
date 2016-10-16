@@ -136,8 +136,8 @@
   <data name="textEditEmulator" xml:space="preserve">
     <value>Edit Emulator</value>
   </data>
-  <data name="textGeneral" xml:space="preserve">
-    <value>General</value>
+  <data name="textSearch" xml:space="preserve">
+    <value>Search</value>
   </data>
   <data name="Heart2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Heart2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,20 +145,26 @@
   <data name="imageedit_1_4773648694" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageedit_1_4773648694.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Redo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Redo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="textScale" xml:space="preserve">
     <value>Scale</value>
   </data>
   <data name="textEmulatorAlreadyAdded" xml:space="preserve">
     <value>This emulator is already added</value>
   </data>
-  <data name="textSearch" xml:space="preserve">
-    <value>Search</value>
+  <data name="controller" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\controller.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="textEmulator" xml:space="preserve">
     <value>Emulator</value>
   </data>
   <data name="textLoadPreset" xml:space="preserve">
     <value>Load Preset</value>
+  </data>
+  <data name="Undo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Undo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="textGameAlreadyAdded" xml:space="preserve">
     <value>This game is already added</value>
@@ -192,6 +198,9 @@
   </data>
   <data name="Play" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textGeneral" xml:space="preserve">
+    <value>General</value>
   </data>
   <data name="textInvalidInput" xml:space="preserve">
     <value>Invalid input</value>
@@ -244,8 +253,8 @@
   <data name="textAddEmulator" xml:space="preserve">
     <value>Add Emulator</value>
   </data>
-  <data name="controller" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\controller.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="textInvalidEmulatorPlatform" xml:space="preserve">
     <value>The given emulator platform is invalid</value>
@@ -298,8 +307,8 @@
   <data name="Edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="textFont" xml:space="preserve">
+    <value>Font</value>
   </data>
   <data name="textAddedToFavourites" xml:space="preserve">
     <value>Added to favourites</value>
@@ -310,10 +319,7 @@
   <data name="Heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Heart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="textFont" xml:space="preserve">
-    <value>Font</value>
-  </data>
-  <data name="Redo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Redo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Redo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
