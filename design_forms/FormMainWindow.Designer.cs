@@ -143,6 +143,8 @@
             // 
             this.buttonEmulator.AutoSize = true;
             this.buttonEmulator.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonEmulator.BackgroundImage = global::design_forms.Properties.Resources.emulator;
+            this.buttonEmulator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonEmulator.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonEmulator.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEmulator.Location = new System.Drawing.Point(230, 2);
@@ -230,7 +232,7 @@
             // buttonFavourites
             // 
             this.buttonFavourites.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonFavourites.BackgroundImage = global::design_forms.Properties.Resources.Heart;
+            this.buttonFavourites.BackgroundImage = global::design_forms.Properties.Resources.Heart2;
             this.buttonFavourites.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonFavourites.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonFavourites.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

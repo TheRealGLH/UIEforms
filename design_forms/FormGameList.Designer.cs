@@ -162,6 +162,8 @@
             // 
             this.buttonEdit.AutoSize = true;
             this.buttonEdit.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonEdit.BackgroundImage = global::design_forms.Properties.Resources.Edit;
+            this.buttonEdit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonEdit.Enabled = false;
             this.buttonEdit.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEdit.Location = new System.Drawing.Point(41, 3);
@@ -176,7 +178,7 @@
             // 
             this.buttonRemove.AutoSize = true;
             this.buttonRemove.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonRemove.BackgroundImage = global::design_forms.Properties.Resources.remove;
+            this.buttonRemove.BackgroundImage = global::design_forms.Properties.Resources.remove1;
             this.buttonRemove.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonRemove.Enabled = false;
             this.buttonRemove.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -192,7 +194,7 @@
             // 
             this.buttonAddToFavourites.AutoSize = true;
             this.buttonAddToFavourites.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonAddToFavourites.BackgroundImage = global::design_forms.Properties.Resources.Heart;
+            this.buttonAddToFavourites.BackgroundImage = global::design_forms.Properties.Resources.Heart1;
             this.buttonAddToFavourites.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonAddToFavourites.Enabled = false;
             this.buttonAddToFavourites.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
