@@ -17,9 +17,6 @@ namespace design_forms
         {
             base.Text = Properties.Resources.textEmulators;
             this.labelTitle.Text = Properties.Resources.textEmulators;
-            this.buttonAdd.Text = Properties.Resources.textAdd;
-            this.buttonEdit.Text = Properties.Resources.textEdit;
-            this.buttonRemove.Text = Properties.Resources.textRemove;
             this.columnHeaderTitle.Text = Properties.Resources.textTitle;
             this.columnHeaderPlatform.Text = Properties.Resources.textPlatform;
             this.columnHeaderDeveloper.Text = Properties.Resources.textDeveloper;
