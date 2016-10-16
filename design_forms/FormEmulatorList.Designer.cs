@@ -143,12 +143,14 @@
             // 
             this.buttonAdd.AutoSize = true;
             this.buttonAdd.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonAdd.BackgroundImage = global::design_forms.Properties.Resources._01a5dcde8a3c9b424e105185677ed8d6_plus;
+            this.buttonAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonAdd.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdd.Location = new System.Drawing.Point(3, 3);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(48, 32);
+            this.buttonAdd.Size = new System.Drawing.Size(36, 32);
             this.buttonAdd.TabIndex = 0;
-            this.buttonAdd.Text = "Add";
+            this.buttonAdd.Text = "    ";
             this.buttonAdd.UseVisualStyleBackColor = true;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
@@ -158,7 +160,7 @@
             this.buttonEdit.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonEdit.Enabled = false;
             this.buttonEdit.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEdit.Location = new System.Drawing.Point(57, 3);
+            this.buttonEdit.Location = new System.Drawing.Point(45, 3);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(51, 32);
             this.buttonEdit.TabIndex = 1;
@@ -170,9 +172,11 @@
             // 
             this.buttonRemove.AutoSize = true;
             this.buttonRemove.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonRemove.BackgroundImage = global::design_forms.Properties.Resources.remove;
+            this.buttonRemove.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonRemove.Enabled = false;
             this.buttonRemove.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRemove.Location = new System.Drawing.Point(114, 3);
+            this.buttonRemove.Location = new System.Drawing.Point(102, 3);
             this.buttonRemove.Name = "buttonRemove";
             this.buttonRemove.Size = new System.Drawing.Size(73, 32);
             this.buttonRemove.TabIndex = 2;
@@ -280,7 +284,6 @@
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.Button buttonEdit;
         private System.Windows.Forms.Button buttonRemove;
         private System.Windows.Forms.ListView listViewEmulators;
@@ -290,5 +293,6 @@
         private System.Windows.Forms.ColumnHeader columnHeaderPlatform;
         private System.Windows.Forms.ColumnHeader columnHeaderLocation;
         private System.Windows.Forms.Button buttonOk;
+        private System.Windows.Forms.Button buttonAdd;
     }
 }

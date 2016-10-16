@@ -117,27 +117,30 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textConfirmation" xml:space="preserve">
-    <value>Confirmation</value>
+  <data name="textInvalidGameName" xml:space="preserve">
+    <value>The given game name is invalid</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="magnifier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magnifier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="textForum" xml:space="preserve">
     <value>Forum</value>
   </data>
-  <data name="textHelp" xml:space="preserve">
-    <value>Help</value>
+  <data name="controller" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\controller.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="textEditEmulator" xml:space="preserve">
     <value>Edit Emulator</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="imageedit_1_4773648694" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageedit_1_4773648694.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="textDummyPlay" xml:space="preserve">
-    <value>Playing game '{0}'</value>
+  <data name="textConfirmation" xml:space="preserve">
+    <value>Confirmation</value>
   </data>
-  <data name="textEmulatorAlreadyAdded" xml:space="preserve">
-    <value>This emulator is already added</value>
+  <data name="Heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="textFavourites" xml:space="preserve">
     <value>Favourites</value>
@@ -178,14 +181,23 @@
   <data name="textEdit" xml:space="preserve">
     <value>Edit</value>
   </data>
+  <data name="remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="textPlatform" xml:space="preserve">
     <value>Platform</value>
   </data>
-  <data name="textInvalidEmulatorLocation" xml:space="preserve">
-    <value>The given emulator location is invalid</value>
+  <data name="textAddToFavourites" xml:space="preserve">
+    <value>Add to Favourites</value>
   </data>
-  <data name="textInvalidGameLocation" xml:space="preserve">
-    <value>The given game location is invalid</value>
+  <data name="textPlay" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="textSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="textFont" xml:space="preserve">
+    <value>Font</value>
   </data>
   <data name="textEditGame" xml:space="preserve">
     <value>Edit Game</value>
@@ -199,8 +211,8 @@
   <data name="textGame" xml:space="preserve">
     <value>Game</value>
   </data>
-  <data name="textGeneral" xml:space="preserve">
-    <value>General</value>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="textColor" xml:space="preserve">
     <value>Color</value>
@@ -214,6 +226,12 @@
   <data name="textOk" xml:space="preserve">
     <value>Ok</value>
   </data>
+  <data name="textDummyPlay" xml:space="preserve">
+    <value>Playing game '{0}'</value>
+  </data>
+  <data name="01a5dcde8a3c9b424e105185677ed8d6-plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01a5dcde8a3c9b424e105185677ed8d6-plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="textAddGame" xml:space="preserve">
     <value>Add Game</value>
   </data>
@@ -223,23 +241,26 @@
   <data name="textDeveloper" xml:space="preserve">
     <value>Developer</value>
   </data>
-  <data name="textPlay" xml:space="preserve">
-    <value>Play</value>
+  <data name="textInvalidEmulatorLocation" xml:space="preserve">
+    <value>The given emulator location is invalid</value>
   </data>
   <data name="textBugReport" xml:space="preserve">
     <value>Bug Report</value>
   </data>
-  <data name="textSearch" xml:space="preserve">
-    <value>Search</value>
+  <data name="textHelp" xml:space="preserve">
+    <value>Help</value>
   </data>
   <data name="textCancel" xml:space="preserve">
     <value>Cancel</value>
   </data>
-  <data name="textInvalidGameName" xml:space="preserve">
-    <value>The given game name is invalid</value>
+  <data name="Play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="textInvalidEmulatorPlatform" xml:space="preserve">
-    <value>The given emulator platform is invalid</value>
+  <data name="textInvalidGameLocation" xml:space="preserve">
+    <value>The given game location is invalid</value>
+  </data>
+  <data name="textGeneral" xml:space="preserve">
+    <value>General</value>
   </data>
   <data name="textSettings" xml:space="preserve">
     <value>Settings</value>
@@ -247,11 +268,14 @@
   <data name="textAutofillMetadata" xml:space="preserve">
     <value>Autofill Meta-Data</value>
   </data>
-  <data name="textAddToFavourites" xml:space="preserve">
-    <value>Add to Favourites</value>
+  <data name="textEmulatorAlreadyAdded" xml:space="preserve">
+    <value>This emulator is already added</value>
   </data>
   <data name="textUnilator" xml:space="preserve">
     <value>Unilator</value>
+  </data>
+  <data name="Gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="textAbout" xml:space="preserve">
     <value>About</value>
@@ -262,10 +286,10 @@
   <data name="textEmulators" xml:space="preserve">
     <value>Emulators</value>
   </data>
-  <data name="textFont" xml:space="preserve">
-    <value>Font</value>
+  <data name="textInvalidEmulatorPlatform" xml:space="preserve">
+    <value>The given emulator platform is invalid</value>
   </data>
-  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="questionmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\questionmark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

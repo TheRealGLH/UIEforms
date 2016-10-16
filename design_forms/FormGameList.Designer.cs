@@ -147,12 +147,14 @@
             // 
             this.buttonAdd.AutoSize = true;
             this.buttonAdd.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonAdd.BackgroundImage = global::design_forms.Properties.Resources._01a5dcde8a3c9b424e105185677ed8d6_plus;
+            this.buttonAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonAdd.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdd.Location = new System.Drawing.Point(3, 3);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(48, 32);
+            this.buttonAdd.Size = new System.Drawing.Size(32, 32);
             this.buttonAdd.TabIndex = 0;
-            this.buttonAdd.Text = "Add";
+            this.buttonAdd.Text = "   ";
             this.buttonAdd.UseVisualStyleBackColor = true;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
@@ -162,7 +164,7 @@
             this.buttonEdit.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonEdit.Enabled = false;
             this.buttonEdit.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEdit.Location = new System.Drawing.Point(57, 3);
+            this.buttonEdit.Location = new System.Drawing.Point(41, 3);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(51, 32);
             this.buttonEdit.TabIndex = 1;
@@ -174,9 +176,11 @@
             // 
             this.buttonRemove.AutoSize = true;
             this.buttonRemove.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonRemove.BackgroundImage = global::design_forms.Properties.Resources.remove;
+            this.buttonRemove.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonRemove.Enabled = false;
             this.buttonRemove.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRemove.Location = new System.Drawing.Point(114, 3);
+            this.buttonRemove.Location = new System.Drawing.Point(98, 3);
             this.buttonRemove.Name = "buttonRemove";
             this.buttonRemove.Size = new System.Drawing.Size(73, 32);
             this.buttonRemove.TabIndex = 2;
@@ -188,10 +192,12 @@
             // 
             this.buttonAddToFavourites.AutoSize = true;
             this.buttonAddToFavourites.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonAddToFavourites.BackgroundImage = global::design_forms.Properties.Resources.Heart;
+            this.buttonAddToFavourites.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonAddToFavourites.Enabled = false;
             this.buttonAddToFavourites.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAddToFavourites.Location = new System.Drawing.Point(192, 2);
-            this.buttonAddToFavourites.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonAddToFavourites.Location = new System.Drawing.Point(176, 2);
+            this.buttonAddToFavourites.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAddToFavourites.Name = "buttonAddToFavourites";
             this.buttonAddToFavourites.Size = new System.Drawing.Size(144, 32);
             this.buttonAddToFavourites.TabIndex = 3;
@@ -203,10 +209,12 @@
             // 
             this.buttonPlay.AutoSize = true;
             this.buttonPlay.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonPlay.BackgroundImage = global::design_forms.Properties.Resources.Play;
+            this.buttonPlay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonPlay.Enabled = false;
             this.buttonPlay.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPlay.Location = new System.Drawing.Point(340, 2);
-            this.buttonPlay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonPlay.Location = new System.Drawing.Point(324, 2);
+            this.buttonPlay.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPlay.Name = "buttonPlay";
             this.buttonPlay.Size = new System.Drawing.Size(51, 32);
             this.buttonPlay.TabIndex = 4;

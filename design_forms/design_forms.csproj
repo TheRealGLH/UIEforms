@@ -169,6 +169,30 @@
   <ItemGroup>
     <None Include="Resources\background.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01a5dcde8a3c9b424e105185677ed8d6-plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controller.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questionmark.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

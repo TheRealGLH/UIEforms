@@ -126,8 +126,9 @@
             // 
             // buttonGame
             // 
-            this.buttonGame.AutoSize = true;
             this.buttonGame.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonGame.BackgroundImage = global::design_forms.Properties.Resources.controller;
+            this.buttonGame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonGame.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonGame.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGame.Location = new System.Drawing.Point(117, 2);
@@ -135,7 +136,6 @@
             this.buttonGame.Name = "buttonGame";
             this.buttonGame.Size = new System.Drawing.Size(79, 43);
             this.buttonGame.TabIndex = 0;
-            this.buttonGame.Text = "Game";
             this.buttonGame.UseVisualStyleBackColor = true;
             this.buttonGame.Click += new System.EventHandler(this.buttonGame_Click);
             // 
@@ -156,8 +156,9 @@
             // 
             // buttonSearch
             // 
-            this.buttonSearch.AutoSize = true;
             this.buttonSearch.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonSearch.BackgroundImage = global::design_forms.Properties.Resources.magnifier;
+            this.buttonSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonSearch.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonSearch.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSearch.Location = new System.Drawing.Point(380, 2);
@@ -196,8 +197,9 @@
             // 
             // buttonSettings
             // 
-            this.buttonSettings.AutoSize = true;
             this.buttonSettings.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonSettings.BackgroundImage = global::design_forms.Properties.Resources.Gear;
+            this.buttonSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonSettings.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonSettings.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSettings.Location = new System.Drawing.Point(107, 2);
@@ -211,8 +213,9 @@
             // 
             // buttonHelp
             // 
-            this.buttonHelp.AutoSize = true;
             this.buttonHelp.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonHelp.BackgroundImage = global::design_forms.Properties.Resources.questionmark;
+            this.buttonHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonHelp.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonHelp.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonHelp.Location = new System.Drawing.Point(244, 2);
@@ -226,8 +229,9 @@
             // 
             // buttonFavourites
             // 
-            this.buttonFavourites.AutoSize = true;
             this.buttonFavourites.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonFavourites.BackgroundImage = global::design_forms.Properties.Resources.Heart;
+            this.buttonFavourites.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonFavourites.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonFavourites.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonFavourites.Location = new System.Drawing.Point(348, 2);
@@ -255,7 +259,6 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
