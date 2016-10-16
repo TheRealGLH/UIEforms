@@ -53,7 +53,7 @@
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -68,7 +68,7 @@
             this.pictureBoxLogo.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxLogo.Image = global::design_forms.Properties.Resources.imageedit_1_4773648694;
             this.pictureBoxLogo.Location = new System.Drawing.Point(194, 2);
-            this.pictureBoxLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBoxLogo.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
             this.pictureBoxLogo.Size = new System.Drawing.Size(200, 150);
             this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -103,7 +103,7 @@
             this.tableLayoutPanel2.Controls.Add(this.buttonBack, 1, 2);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 199);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 3;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -116,18 +116,16 @@
             // 
             this.buttonPlay.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonPlay.AutoSize = true;
             this.buttonPlay.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonPlay.BackgroundImage = global::design_forms.Properties.Resources.Play;
             this.buttonPlay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonPlay.Enabled = false;
             this.buttonPlay.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPlay.Location = new System.Drawing.Point(60, 2);
-            this.buttonPlay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonPlay.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPlay.Name = "buttonPlay";
             this.buttonPlay.Size = new System.Drawing.Size(51, 32);
             this.buttonPlay.TabIndex = 0;
-            this.buttonPlay.Text = "Play";
             this.buttonPlay.UseVisualStyleBackColor = true;
             this.buttonPlay.Click += new System.EventHandler(this.buttonPlay_Click);
             // 
@@ -135,7 +133,7 @@
             // 
             this.listViewFavourites.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listViewFavourites.Location = new System.Drawing.Point(60, 38);
-            this.listViewFavourites.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listViewFavourites.Margin = new System.Windows.Forms.Padding(2);
             this.listViewFavourites.Name = "listViewFavourites";
             this.listViewFavourites.Size = new System.Drawing.Size(463, 169);
             this.listViewFavourites.TabIndex = 1;
@@ -149,7 +147,7 @@
             this.buttonBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonBack.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.buttonBack.Location = new System.Drawing.Point(254, 211);
-            this.buttonBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonBack.Margin = new System.Windows.Forms.Padding(2);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(75, 42);
             this.buttonBack.TabIndex = 2;
@@ -161,7 +159,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(588, 456);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(603, 493);
             this.Name = "FormFavourites";
             this.Text = "Favourites";
@@ -169,7 +167,6 @@
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

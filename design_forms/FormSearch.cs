@@ -26,11 +26,11 @@ namespace design_forms
         private void loadStrings()
         {
             base.Text = Properties.Resources.textSearch;
-            this.labelTitle.Text = Properties.Resources.textSearch;
-            this.buttonGame.Text = Properties.Resources.textGame;
-            this.buttonEmulator.Text = Properties.Resources.textEmulator;
-            this.buttonPlay.Text = Properties.Resources.textPlay;
-            this.buttonEdit.Text = Properties.Resources.textEdit;
+           // this.labelTitle.Text = Properties.Resources.textSearch;
+            //this.buttonGame.Text = Properties.Resources.textGame;
+            //this.buttonEmulator.Text = Properties.Resources.textEmulator;
+            //this.buttonPlay.Text = Properties.Resources.textPlay;
+            //this.buttonEdit.Text = Properties.Resources.textEdit;
         }
 
         private void showResults()

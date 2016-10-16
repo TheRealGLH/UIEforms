@@ -66,7 +66,7 @@
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel5, 0, 7);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 8;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -87,7 +87,7 @@
             this.pictureBoxLogo.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxLogo.Image = global::design_forms.Properties.Resources.imageedit_1_4773648694;
             this.pictureBoxLogo.Location = new System.Drawing.Point(194, 2);
-            this.pictureBoxLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBoxLogo.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
             this.pictureBoxLogo.Size = new System.Drawing.Size(200, 150);
             this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -123,7 +123,7 @@
             this.tableLayoutPanel2.Controls.Add(this.buttonEmulator, 3, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 231);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -132,34 +132,30 @@
             // 
             // buttonGame
             // 
-            this.buttonGame.AutoSize = true;
             this.buttonGame.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonGame.BackgroundImage = global::design_forms.Properties.Resources.controller;
             this.buttonGame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonGame.Enabled = false;
             this.buttonGame.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonGame.Location = new System.Drawing.Point(177, 2);
-            this.buttonGame.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonGame.Location = new System.Drawing.Point(185, 2);
+            this.buttonGame.Margin = new System.Windows.Forms.Padding(2);
             this.buttonGame.Name = "buttonGame";
-            this.buttonGame.Size = new System.Drawing.Size(79, 43);
+            this.buttonGame.Size = new System.Drawing.Size(90, 43);
             this.buttonGame.TabIndex = 0;
-            this.buttonGame.Text = "Game";
             this.buttonGame.UseVisualStyleBackColor = true;
             this.buttonGame.Click += new System.EventHandler(this.buttonGame_Click);
             // 
             // buttonEmulator
             // 
-            this.buttonEmulator.AutoSize = true;
             this.buttonEmulator.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonEmulator.BackgroundImage = global::design_forms.Properties.Resources.emulator;
             this.buttonEmulator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonEmulator.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEmulator.Location = new System.Drawing.Point(290, 2);
-            this.buttonEmulator.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonEmulator.Location = new System.Drawing.Point(309, 2);
+            this.buttonEmulator.Margin = new System.Windows.Forms.Padding(2);
             this.buttonEmulator.Name = "buttonEmulator";
-            this.buttonEmulator.Size = new System.Drawing.Size(116, 43);
+            this.buttonEmulator.Size = new System.Drawing.Size(90, 43);
             this.buttonEmulator.TabIndex = 1;
-            this.buttonEmulator.Text = "Emulator";
             this.buttonEmulator.UseVisualStyleBackColor = true;
             this.buttonEmulator.Click += new System.EventHandler(this.buttonEmulator_Click);
             // 
@@ -175,7 +171,7 @@
             this.tableLayoutPanel3.Controls.Add(this.textBoxSearch, 1, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(2, 282);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -187,7 +183,7 @@
             this.textBoxSearch.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxSearch.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxSearch.Location = new System.Drawing.Point(148, 2);
-            this.textBoxSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxSearch.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxSearch.Name = "textBoxSearch";
             this.textBoxSearch.Size = new System.Drawing.Size(288, 29);
             this.textBoxSearch.TabIndex = 0;
@@ -205,7 +201,7 @@
             this.tableLayoutPanel4.Controls.Add(this.listBoxResults, 1, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(2, 351);
-            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -219,7 +215,7 @@
             this.listBoxResults.FormattingEnabled = true;
             this.listBoxResults.ItemHeight = 22;
             this.listBoxResults.Location = new System.Drawing.Point(148, 2);
-            this.listBoxResults.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBoxResults.Margin = new System.Windows.Forms.Padding(2);
             this.listBoxResults.Name = "listBoxResults";
             this.listBoxResults.Size = new System.Drawing.Size(288, 145);
             this.listBoxResults.Sorted = true;
@@ -242,7 +238,7 @@
             this.tableLayoutPanel5.Controls.Add(this.buttonBack, 2, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(2, 407);
-            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -251,7 +247,6 @@
             // 
             // buttonPlay
             // 
-            this.buttonPlay.AutoSize = true;
             this.buttonPlay.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonPlay.BackgroundImage = global::design_forms.Properties.Resources.Play;
             this.buttonPlay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -259,17 +254,15 @@
             this.buttonPlay.Enabled = false;
             this.buttonPlay.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPlay.Location = new System.Drawing.Point(181, 2);
-            this.buttonPlay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonPlay.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPlay.Name = "buttonPlay";
             this.buttonPlay.Size = new System.Drawing.Size(68, 43);
             this.buttonPlay.TabIndex = 0;
-            this.buttonPlay.Text = "Play";
             this.buttonPlay.UseVisualStyleBackColor = true;
             this.buttonPlay.Click += new System.EventHandler(this.buttonPlay_Click);
             // 
             // buttonEdit
             // 
-            this.buttonEdit.AutoSize = true;
             this.buttonEdit.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonEdit.BackgroundImage = global::design_forms.Properties.Resources.Edit;
             this.buttonEdit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -277,11 +270,10 @@
             this.buttonEdit.Enabled = false;
             this.buttonEdit.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEdit.Location = new System.Drawing.Point(332, 2);
-            this.buttonEdit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonEdit.Margin = new System.Windows.Forms.Padding(2);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(70, 43);
             this.buttonEdit.TabIndex = 1;
-            this.buttonEdit.Text = "Edit";
             this.buttonEdit.UseVisualStyleBackColor = true;
             this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
@@ -292,7 +284,7 @@
             this.buttonBack.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.buttonBack.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonBack.Location = new System.Drawing.Point(253, 2);
-            this.buttonBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonBack.Margin = new System.Windows.Forms.Padding(2);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(75, 42);
             this.buttonBack.TabIndex = 2;
@@ -305,7 +297,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(588, 456);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(603, 493);
             this.Name = "FormSearch";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -314,12 +306,10 @@
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel5.ResumeLayout(false);
-            this.tableLayoutPanel5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

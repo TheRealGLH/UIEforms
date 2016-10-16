@@ -9,13 +9,13 @@ namespace design_forms
         {
             InitializeComponent();
 
-            loadStrings();
+            //loadStrings();
         }
 
         private void loadStrings()
         {
             base.Text = Properties.Resources.textUnilator;
-            //this.labelTitle.Text = Properties.Resources.textUnilator;
+            this.labelTitle.Text = Properties.Resources.textUnilator;
             this.buttonGame.Text = Properties.Resources.textGame;
             this.buttonEmulator.Text = Properties.Resources.textEmulator;
             this.buttonSearch.Text = Properties.Resources.textSearch;

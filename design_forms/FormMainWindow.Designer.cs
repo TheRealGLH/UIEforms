@@ -33,12 +33,12 @@
             this.labelTitle = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.buttonGame = new System.Windows.Forms.Button();
-            this.buttonEmulator = new System.Windows.Forms.Button();
             this.buttonSearch = new System.Windows.Forms.Button();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.buttonSettings = new System.Windows.Forms.Button();
             this.buttonHelp = new System.Windows.Forms.Button();
             this.buttonFavourites = new System.Windows.Forms.Button();
+            this.buttonEmulator = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
@@ -131,30 +131,13 @@
             this.buttonGame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonGame.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonGame.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonGame.Location = new System.Drawing.Point(117, 2);
+            this.buttonGame.Location = new System.Drawing.Point(123, 2);
             this.buttonGame.Margin = new System.Windows.Forms.Padding(2);
             this.buttonGame.Name = "buttonGame";
-            this.buttonGame.Size = new System.Drawing.Size(79, 43);
+            this.buttonGame.Size = new System.Drawing.Size(90, 43);
             this.buttonGame.TabIndex = 0;
             this.buttonGame.UseVisualStyleBackColor = true;
             this.buttonGame.Click += new System.EventHandler(this.buttonGame_Click);
-            // 
-            // buttonEmulator
-            // 
-            this.buttonEmulator.AutoSize = true;
-            this.buttonEmulator.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonEmulator.BackgroundImage = global::design_forms.Properties.Resources.emulator;
-            this.buttonEmulator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonEmulator.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonEmulator.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEmulator.Location = new System.Drawing.Point(230, 2);
-            this.buttonEmulator.Margin = new System.Windows.Forms.Padding(2);
-            this.buttonEmulator.Name = "buttonEmulator";
-            this.buttonEmulator.Size = new System.Drawing.Size(116, 43);
-            this.buttonEmulator.TabIndex = 1;
-            this.buttonEmulator.Text = "Emulator";
-            this.buttonEmulator.UseVisualStyleBackColor = true;
-            this.buttonEmulator.Click += new System.EventHandler(this.buttonEmulator_Click);
             // 
             // buttonSearch
             // 
@@ -163,12 +146,11 @@
             this.buttonSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonSearch.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonSearch.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSearch.Location = new System.Drawing.Point(380, 2);
+            this.buttonSearch.Location = new System.Drawing.Point(371, 2);
             this.buttonSearch.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSearch.Name = "buttonSearch";
-            this.buttonSearch.Size = new System.Drawing.Size(86, 43);
+            this.buttonSearch.Size = new System.Drawing.Size(90, 43);
             this.buttonSearch.TabIndex = 2;
-            this.buttonSearch.Text = "Search";
             this.buttonSearch.UseVisualStyleBackColor = true;
             this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
@@ -204,12 +186,11 @@
             this.buttonSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonSettings.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonSettings.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSettings.Location = new System.Drawing.Point(107, 2);
+            this.buttonSettings.Location = new System.Drawing.Point(123, 2);
             this.buttonSettings.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSettings.Name = "buttonSettings";
-            this.buttonSettings.Size = new System.Drawing.Size(103, 43);
+            this.buttonSettings.Size = new System.Drawing.Size(90, 43);
             this.buttonSettings.TabIndex = 0;
-            this.buttonSettings.Text = "Settings";
             this.buttonSettings.UseVisualStyleBackColor = true;
             this.buttonSettings.Click += new System.EventHandler(this.buttonSettings_Click);
             // 
@@ -220,12 +201,11 @@
             this.buttonHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonHelp.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonHelp.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonHelp.Location = new System.Drawing.Point(244, 2);
+            this.buttonHelp.Location = new System.Drawing.Point(247, 2);
             this.buttonHelp.Margin = new System.Windows.Forms.Padding(2);
             this.buttonHelp.Name = "buttonHelp";
-            this.buttonHelp.Size = new System.Drawing.Size(70, 43);
+            this.buttonHelp.Size = new System.Drawing.Size(90, 43);
             this.buttonHelp.TabIndex = 1;
-            this.buttonHelp.Text = "Help";
             this.buttonHelp.UseVisualStyleBackColor = true;
             this.buttonHelp.Click += new System.EventHandler(this.buttonHelp_Click);
             // 
@@ -236,14 +216,28 @@
             this.buttonFavourites.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonFavourites.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonFavourites.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonFavourites.Location = new System.Drawing.Point(348, 2);
+            this.buttonFavourites.Location = new System.Drawing.Point(371, 2);
             this.buttonFavourites.Margin = new System.Windows.Forms.Padding(2);
             this.buttonFavourites.Name = "buttonFavourites";
-            this.buttonFavourites.Size = new System.Drawing.Size(129, 43);
+            this.buttonFavourites.Size = new System.Drawing.Size(90, 43);
             this.buttonFavourites.TabIndex = 2;
-            this.buttonFavourites.Text = "Favourites";
             this.buttonFavourites.UseVisualStyleBackColor = true;
             this.buttonFavourites.Click += new System.EventHandler(this.buttonFavourites_Click);
+            // 
+            // buttonEmulator
+            // 
+            this.buttonEmulator.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonEmulator.BackgroundImage = global::design_forms.Properties.Resources.emulator;
+            this.buttonEmulator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonEmulator.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttonEmulator.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonEmulator.Location = new System.Drawing.Point(247, 2);
+            this.buttonEmulator.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonEmulator.Name = "buttonEmulator";
+            this.buttonEmulator.Size = new System.Drawing.Size(90, 43);
+            this.buttonEmulator.TabIndex = 1;
+            this.buttonEmulator.UseVisualStyleBackColor = true;
+            this.buttonEmulator.Click += new System.EventHandler(this.buttonEmulator_Click);
             // 
             // FormMainWindow
             // 
@@ -259,7 +253,6 @@
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -272,12 +265,12 @@
         private System.Windows.Forms.PictureBox pictureBoxLogo;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Button buttonGame;
-        private System.Windows.Forms.Button buttonEmulator;
         private System.Windows.Forms.Button buttonSearch;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Button buttonSettings;
         private System.Windows.Forms.Button buttonHelp;
         private System.Windows.Forms.Button buttonFavourites;
         private System.Windows.Forms.Label labelTitle;
+        private System.Windows.Forms.Button buttonEmulator;
     }
 }

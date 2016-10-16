@@ -262,7 +262,7 @@
             // labelFont
             // 
             this.labelFont.AutoSize = true;
-            this.labelFont.Location = new System.Drawing.Point(2, 30);
+            this.labelFont.Location = new System.Drawing.Point(2, 34);
             this.labelFont.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelFont.Name = "labelFont";
             this.labelFont.Size = new System.Drawing.Size(44, 22);
@@ -272,7 +272,7 @@
             // labelScale
             // 
             this.labelScale.AutoSize = true;
-            this.labelScale.Location = new System.Drawing.Point(2, 60);
+            this.labelScale.Location = new System.Drawing.Point(2, 59);
             this.labelScale.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelScale.Name = "labelScale";
             this.labelScale.Size = new System.Drawing.Size(46, 22);
@@ -293,7 +293,7 @@
             // 
             this.comboBoxFont.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBoxFont.FormattingEnabled = true;
-            this.comboBoxFont.Location = new System.Drawing.Point(53, 32);
+            this.comboBoxFont.Location = new System.Drawing.Point(53, 36);
             this.comboBoxFont.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxFont.Name = "comboBoxFont";
             this.comboBoxFont.Size = new System.Drawing.Size(345, 30);
@@ -303,7 +303,7 @@
             // 
             this.comboBoxScale.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBoxScale.FormattingEnabled = true;
-            this.comboBoxScale.Location = new System.Drawing.Point(53, 62);
+            this.comboBoxScale.Location = new System.Drawing.Point(53, 61);
             this.comboBoxScale.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxScale.Name = "comboBoxScale";
             this.comboBoxScale.Size = new System.Drawing.Size(345, 30);
