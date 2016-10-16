@@ -180,9 +180,6 @@
   <data name="textForum" xml:space="preserve">
     <value>Forum</value>
   </data>
-  <data name="textGame" xml:space="preserve">
-    <value>Spel</value>
-  </data>
   <data name="textGameAlreadyAdded" xml:space="preserve">
     <value>Dit spel is al toegevoegd</value>
   </data>
